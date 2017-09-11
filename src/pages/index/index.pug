@@ -1,0 +1,129 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title АО "Приморско-Ахтарский молочный завод" ТМ «ТВОРОГОВЪ»
+        meta(name="description", content="")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        header.p-header
+            .p-header__wrapper
+                .p-header__bg
+                .container
+                    .row    
+                        .col-lg-12
+                            .p-header__item
+                                .logo
+                            .p-header__item.hidden-sm.hidden-xs
+                                ul.menu.p-header__menu
+                                    li.menu__item
+                                        a.menu__link(href="#") О компании
+                                    li.menu__item
+                                        a.menu__link(href="#") Продукция
+                                    li.menu__item
+                                        a.menu__link(href="#") Новости
+                                    li.menu__item
+                                        a.menu__link(href="#") Партнерам и дистрибьюторам
+                                    li.menu__item
+                                        a.menu__link(href="#") Контакты
+                            .p-header__item.hidden-md.hidden-xs
+                                .p-header__contacts
+                                    a.p-header__phone(href="tel: 89189809944") 9 918 980-99-44
+                                    a.p-header__call(href="#") Перезвоните мне
+                                    a.p-header__email(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
+                            .p-header__item.hidden-md.hidden-lg
+                                a.p-header__burger.p-header__icon(href="#")
+                                    img(src=require("../../assets/img/menu.svg"))
+                            .p-header__item.hidden-md
+                                a.p-header__search.p-header__icon(href="#")
+                                    img(src=require("../../assets/img/search.png"))
+                    .row
+                        .col-lg-12
+                            .p-header__title
+                                p.p-header__title_ligth АО "Приморско-Ахтарский молочный завод"
+                                p ТМ «ТВОРОГОВЪ»
+        main.index
+            section.p-section
+                .container
+                    .quick-menu.index__quick-menu
+                        .row
+                            .col-sm-4
+                                a.quick-menu__item(href="#")
+                                    .quick-menu__bg(style="background-image: url('" + require("../../assets/img/about-bg.jpg") + "')")
+                                    .quick-menu__caption
+                                        span О нашей
+                                            strong Компании
+                            .col-sm-4
+                                a.quick-menu__item.quick-menu__item_style_white(href="#")
+                                    .quick-menu__bg(style="background-image: url('" + require("../../assets/img/catalog-bg.jpg") + "')")
+                                    .quick-menu__caption
+                                        span Каталог
+                                            strong Продукции
+                            .col-sm-4
+                                a.quick-menu__item.quick-menu__item_style_green(href="#")
+                                    .quick-menu__bg(style="background-image: url('" + require("../../assets/img/partners-bg.jpg") + "')")
+                                    .quick-menu__caption
+                                        span Партнерам и 
+                                            strong Дистрибьюторам
+            section.p-section
+                .container
+                    h1.p-section__title.title.title_h1 Наша продукция
+                    .quick-catalog.index__quick-catalog
+                        .row
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-milk-bg.jpg") + "')")
+                                    .quick-catalog__caption Молоко
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item.quick-catalog__item_style_blue(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-cream-bg.jpg") + "')")
+                                    .quick-catalog__caption Сметана
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item.quick-catalog__item_style_gold(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-ice-cream-bg.jpg") + "')")
+                                    .quick-catalog__caption Мороженое
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item.quick-catalog__item_style_dark(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-butter-bg.jpg") + "')")
+                                    .quick-catalog__caption Масло
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item.quick-catalog__item_style_dark(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-cottage-cheese-bg.jpg") + "')")
+                                    .quick-catalog__caption Творог
+                            .col-sm-6.col-md-4
+                                a.quick-catalog__item.quick-catalog__item_size_small.quick-catalog__item_style_dark(href="#") 
+                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-milk-production-bg.jpg") + "')")
+                                    .quick-catalog__caption
+                                        span Кисломолочная 
+                                        | продукция
+
+        footer.p-footer
+            .container
+                .row    
+                    .col-sm-6.col-md-7
+                        h1.title.title_h1.p-footer__title Контакты
+                        p Россия,353860, Краснодарский край,
+                        p г.Приморско-Ахтарск, ул Железнодорожная,38
+                        p факс: 8 861 433-09-58
+                        p отдел продаж +7 918 980-99-44
+                        p e-mail: 
+                            a(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
+                    .col-sm-3.col-md-2
+                        ul.footer-menu
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") О компании
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") Продукция
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") Новости
+                    .col-sm-3.col-md-3
+                        ul.footer-menu
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") Партнерам
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") Дистрибьюторам
+                            li.footer-menu__item
+                                a.footer-menu__link(href="#") Контакты
+
+
