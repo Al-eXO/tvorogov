@@ -15,34 +15,59 @@ html
                         .col-lg-12
                             .p-header__item
                                 .logo
-                            .p-header__item.hidden-sm.hidden-xs
-                                ul.menu.p-header__menu
-                                    li.menu__item
-                                        a.menu__link(href="#") О компании
-                                    li.menu__item
-                                        a.menu__link(href="#") Продукция
-                                    li.menu__item
-                                        a.menu__link(href="#") Новости
-                                    li.menu__item
-                                        a.menu__link(href="#") Партнерам и дистрибьюторам
-                                    li.menu__item
-                                        a.menu__link(href="#") Контакты
-                            .p-header__item.hidden-md.hidden-xs
-                                .p-header__contacts
-                                    a.p-header__phone(href="tel: 89189809944") 9 918 980-99-44
-                                    a.p-header__call(href="#") Перезвоните мне
-                                    a.p-header__email(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
-                            .p-header__item.hidden-md.hidden-lg
-                                a.p-header__burger.p-header__icon(href="#")
-                                    img(src=require("../../assets/img/menu.svg"))
-                            .p-header__item.hidden-md
-                                a.p-header__search.p-header__icon(href="#")
-                                    img(src=require("../../assets/img/search.png"))
+                            .p-header__holder
+                                .p-header__item.hidden-sm.hidden-xs.hidden-md
+                                    ul.menu.p-header__menu
+                                        li.menu__item
+                                            a.menu__link(href="#") О компании
+                                        li.menu__item
+                                            a.menu__link(href="#") Продукция
+                                        li.menu__item
+                                            a.menu__link(href="#") Новости
+                                        li.menu__item
+                                            a.menu__link(href="#") Партнерам и дистрибьюторам
+                                        li.menu__item
+                                            a.menu__link(href="#") Контакты
+                                .p-header__item.hidden-xs
+                                    .p-header__contacts
+                                        a.p-header__phone(href="tel: 89189809944") 9 918 980-99-44
+                                        a.p-header__call(href="#") Перезвоните мне
+                                        a.p-header__email(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
+                                .p-header__item
+                                    a.p-header__search.p-header__icon(href="#", data-start-search)
+                                        img(src=require("../../assets/img/search.png"))
+                                .p-header__item.hidden-lg
+                                    a.p-header__burger.p-header__icon(href="#")
+                                        img(src=require("../../assets/img/menu.svg"))
                     .row
                         .col-lg-12
                             .p-header__title
                                 p.p-header__title_ligth АО "Приморско-Ахтарский молочный завод"
                                 p ТМ «ТВОРОГОВЪ»
+            nav.mobile-menu
+                .mobile-menu__bg
+                .container
+                    .row
+                        .col-xs-12
+                            .logo.mobile-menu__logo
+                        .col-xs-12.text-center
+                            ul.menu
+                                li.menu__item
+                                    a.menu__link(href="#") О компании
+                                li.menu__item
+                                    a.menu__link(href="#") Продукция
+                                li.menu__item
+                                    a.menu__link(href="#") Новости
+                                li.menu__item
+                                    a.menu__link(href="#") Партнерам и дистрибьюторам
+                                li.menu__item
+                                    a.menu__link(href="#") Контакты
+                .mobile-menu__close
+                    img(src=require("../../assets/img/close.svg"), width="30") 
+                    | закрыть
+
+            
+                    
         main.index
             section.p-section
                 .container
@@ -125,5 +150,16 @@ html
                                 a.footer-menu__link(href="#") Дистрибьюторам
                             li.footer-menu__item
                                 a.footer-menu__link(href="#") Контакты
+
+        .search-box(data-searchbox)
+            form(action="#", method="post", novalidate)
+                input.search-box__input(name="searchQuery", placeholder="Что ищем?")
+                .search-box__action
+                    .search-box__action-item
+                        img(src=require("../../assets/img/search.svg"), width="30") 
+                        | искать
+                    .search-box__action-item(data-cancel-search)
+                        img(src=require("../../assets/img/close.svg"), width="27") 
+                        | закрыть
 
 

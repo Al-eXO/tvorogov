@@ -7,6 +7,9 @@
 a
     &:hover, &:visited, &:active, &:focus
         text-decoration none
+.blured
+    header, main, footer
+        filter blur(5px)
 
 .logo
     display block
@@ -45,6 +48,9 @@ a
         position relative
         padding 30px 0
         background-image linear-gradient(to top, rgba(255, 255, 255, 0) 0%, transparent 100%)
+    &__holder
+        display inline-block
+        float right
     &__bg
         position absolute
         width 100%
@@ -99,11 +105,21 @@ a
             transition 400ms color
             &:hover 
                 color: rgba(#fff, .7)
+    &__burger, &__search
+        opacity .7
+        transition opacity 400ms
+        outline none !important
+        img 
+            margin-top -3px
+        &:hover
+            opacity 1
     &__contacts
         a
             display block
             color #fff
 
+
+        
 .p-footer
     background-color rgba(#f1f1f0, .4)
     color #000
@@ -139,6 +155,108 @@ a
                 margin 0 7px 0 5px
                 vertical-align middle
                 background #7ebbed
+
+
+.mobile-menu
+    display none
+    position fixed
+    left 0
+    top 0
+    right 0
+    bottom 0
+    background-color #5296d8
+    z-index 3
+    &__bg
+        position absolute
+        width 100%
+        height 150px
+        bottom 0
+        left 0
+        background transparent url('../img/milk-bg.png') bottom center no-repeat
+        background-size cover
+    &__logo
+        display block
+        margin 30px auto 0
+    &__close 
+        position absolute
+        left 50%
+        bottom 20px
+        transform translateX(-50%)
+        text-transform uppercase
+        font-size 7px
+        text-align center
+        color #514a46    
+        img
+            display block
+            margin-bottom 4px
+
+    .menu
+        &__item 
+            display block
+            &:before
+                width 90%
+                height 2px
+                display block
+                margin auto
+        &__link
+            display block
+            color #fff
+            width 90%
+            margin auto
+            line-height 45px
+            &:hover, &:active   
+                background-color rgba(#fff, .4)
+                
+
+.search-box
+    visibility hidden
+    opacity 0
+    position fixed
+    left 0
+    top 0
+    right 0
+    bottom 0
+    background rgba(255,255,255,.9)
+    z-index 3
+    padding 0 20px
+    transition opacity 600ms ease-out
+    &.active
+        visibility visible
+        opacity 1
+    &__input
+        position absolute
+        left 50%
+        top 50%
+        transform translate(-50%, -50%)
+        background transparent
+        font-size 38px
+        display block
+        padding 15px 0
+        outline none !important
+        width 100%
+        border none
+        color #5a97d7
+        border-bottom 2px solid rgba(#514a46, .5)
+        text-align center
+        max-width 390px
+    &__action-item
+        display inline-block
+        vertical-align middle
+        text-transform uppercase
+        font-size 7px
+        text-align center
+        color #514a46    
+        img
+            display block
+            margin-bottom 4px
+        &:first-child
+            margin-right 60px
+    &__action   
+        text-align center
+        position absolute
+        left 50%
+        bottom 20px
+        transform translateX(-50%)
 
 
 .quick-menu, .quick-catalog
@@ -280,6 +398,14 @@ a
         &__item
             margin-bottom 15px
             font-size 38px
+            &_size_small
+                font-size 24px
+
+    .search-box
+        &__input
+            max-width 250px
+            font-size 28px
+            padding 10px 0
 
 
 @media screen and (max-width 465px)
@@ -294,7 +420,7 @@ a
         &__bg
             height 40%
         &__burger
-            margin-left 39px
+            margin-left 15px
         &__item+ &
             &__item
                 margin-left 10px
@@ -302,11 +428,15 @@ a
         margin-bottom 50px
         &__item
             font-size 38px
+            &_size_small
+                font-size 24px
     .quick-menu
         margin-bottom 60px
         &__item
             height 290px
             margin-bottom 15px
+            &_size_small
+                font-size 24px
 
     .p-footer
         padding 65px 0
