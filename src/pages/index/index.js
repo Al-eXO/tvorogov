@@ -23,10 +23,21 @@ class indexPage{
 
             });
         });
+
+        $(document).on('click', '[data-open-menu]', function(){
+            $('[data-mobile-menu]').addClass('active');
+            $('body').addClass('blured');
+        });
+
+        $(document).on('click', '[data-close-menu]', function() {
+            $('[data-mobile-menu]').removeClass('active');
+            $('body').removeClass('blured');
+        })
     }
 }
 
 
 $(function(){
     var p = new indexPage();
+    $('[data-mobile-menu]').addClass('loaded');
 })  

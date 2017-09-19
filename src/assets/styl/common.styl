@@ -158,14 +158,19 @@ a
 
 
 .mobile-menu
-    display none
     position fixed
-    left 0
-    top 0
     right 0
+    top 0
     bottom 0
     background-color #5296d8
     z-index 3
+    max-width 320px
+    transform translateX(100%)
+    box-shadow 0 0 10px rgba(#000, .1)
+    &.loaded
+        transition transform 500ms ease-out
+    &.active        
+        transform translateX(0px)
     &__bg
         position absolute
         width 100%
@@ -180,6 +185,7 @@ a
     &__close 
         position absolute
         left 50%
+        cursor pointer
         bottom 20px
         transform translateX(-50%)
         text-transform uppercase
@@ -246,6 +252,7 @@ a
         font-size 7px
         text-align center
         color #514a46    
+        cursor pointer
         img
             display block
             margin-bottom 4px
