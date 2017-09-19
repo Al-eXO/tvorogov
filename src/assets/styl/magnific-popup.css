@@ -404,3 +404,13 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+
+@media screen and (max-width: 767px){
+  .white-popup {
+    padding: 20px 30px;
+  }
+  .mfp-close-btn-in .mfp-close {
+    right: 10px;
+    top: 10px;
+  }
+}
