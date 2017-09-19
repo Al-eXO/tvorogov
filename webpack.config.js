@@ -34,7 +34,7 @@ const common = merge([{
         plugins: [
             new HtmlWebpackPlugin({
                 filename: 'index.html',
-                chunks: ['index', 'common'],
+                chunks: ['index', 'common' ],
                 template: PATHS.source + '/pages/index/index.pug'
             }),
             new webpack.optimize.CommonsChunkPlugin({
