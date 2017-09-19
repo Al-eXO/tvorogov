@@ -6,13 +6,57 @@ import './index.pug';
 class indexPage{
     constructor(){
         this.initIndexPageEvents();
+        this.initPopups();
+        this.initMasks();
+    }
+
+    initPopups(){
+        var self = this;
+        $('.popup-link').magnificPopup({
+            type: 'inline',
+            removalDelay: 300,
+            mainClass: 'mfp-fade',
+            callbacks: {
+                open: function(){
+                    self.updateInputs();
+                },
+                close: function(){
+                    $('form').get(0).reset();
+                }
+            }
+        });
+    }
+
+    updateInputs(){
+        $('.brand-input input').each(function(){
+            if ($(this).val() === ''){
+                $(this).parents('.brand-input').removeClass('active');
+            }
+        })
+    }
+
+    initMasks(){
+        var im = new Inputmask({
+            mask: '+7 (999) 999 99 99',
+            placeholder: '+7 (...) ... .. ..'
+        });
+        im.mask('[data-mask="phone"]');
+
     }
 
     initIndexPageEvents(){
+
+        $('.brand-input input').on('focus', function(){
+            $(this).parents('.brand-input').addClass('active');
+        }).on('blur', function(){
+            if ($(this).val() === ''){
+                $(this).parents('.brand-input').removeClass('active');
+            }
+        });
+
         $(document).on('click', '[data-start-search]', function(){
             $('[data-searchbox]').addClass('active');
             $('body').addClass('blured');
-            console.log("start search");
         });
 
         $(document).on('click', '[data-cancel-search]', function(){
@@ -40,4 +84,5 @@ class indexPage{
 $(function(){
     var p = new indexPage();
     $('[data-mobile-menu]').addClass('loaded');
+    console.log(magnificPopup);
 })  

@@ -42,7 +42,9 @@ const common = merge([{
             }),
             new webpack.ProvidePlugin({
                 $: 'jquery',
-                jQuery: 'jquery'
+                jQuery: 'jquery',
+                magnificPopup: 'magnific-popup',
+                Inputmask: 'inputmask'
             })
         ],
 
