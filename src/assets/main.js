@@ -78,3 +78,8 @@ export default class mainScripts{
         })
     }
 }
+
+$(function(){
+    var pageScripts = new mainScripts();
+    $('[data-mobile-menu]').addClass('loaded');
+})   

@@ -25,6 +25,7 @@ let babelOptions = {
 const common = merge([{
         entry: {
             'index': PATHS.source + '/pages/index/index.js',
+            'about': PATHS.source + '/pages/about/about.js',
         },
         output: {
             path: PATHS.build,
@@ -36,6 +37,11 @@ const common = merge([{
                 filename: 'index.html',
                 chunks: ['index', 'common' ],
                 template: PATHS.source + '/pages/index/index.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: 'about.html',
+                chunks: ['about', 'common' ],
+                template: PATHS.source + '/pages/about/about.pug'
             }),
             new webpack.optimize.CommonsChunkPlugin({
                 name: 'common'
