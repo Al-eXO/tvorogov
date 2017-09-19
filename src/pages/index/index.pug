@@ -7,67 +7,9 @@ html
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
     body
-        header.p-header
-            .p-header__wrapper
-                .p-header__bg
-                .container
-                    .row    
-                        .col-lg-12
-                            .p-header__item
-                                .logo
-                            .p-header__holder
-                                .p-header__item.hidden-sm.hidden-xs.hidden-md
-                                    ul.menu.p-header__menu
-                                        li.menu__item
-                                            a.menu__link(href="#") О компании
-                                        li.menu__item
-                                            a.menu__link(href="#") Продукция
-                                        li.menu__item
-                                            a.menu__link(href="#") Новости
-                                        li.menu__item
-                                            a.menu__link(href="#") Партнерам и дистрибьюторам
-                                        li.menu__item
-                                            a.menu__link(href="#") Контакты
-                                .p-header__item.hidden-xs
-                                    .p-header__contacts
-                                        a.p-header__phone(href="tel: 89189809944") 9 918 980-99-44
-                                        a.p-header__call.popup-link(href="#recall-popup") Перезвоните мне
-                                        a.p-header__email(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
-                                .p-header__item
-                                    a.p-header__search.p-header__icon(href="#", data-start-search)
-                                        img(src=require("../../assets/img/search.png"))
-                                .p-header__item.hidden-lg
-                                    a.p-header__burger.p-header__icon(href="#", data-open-menu)
-                                        img(src=require("../../assets/img/menu.svg"))
-                    .row
-                        .col-lg-12
-                            .p-header__title
-                                p.p-header__title_ligth АО "Приморско-Ахтарский молочный завод"
-                                p ТМ «ТВОРОГОВЪ»
-        nav.mobile-menu(data-mobile-menu)
-            .mobile-menu__bg
-            .container-fluid
-                .row
-                    .col-xs-12
-                        .logo.mobile-menu__logo
-                    .col-xs-12.text-center
-                        ul.menu
-                            li.menu__item
-                                a.menu__link(href="#") О компании
-                            li.menu__item
-                                a.menu__link(href="#") Продукция
-                            li.menu__item
-                                a.menu__link(href="#") Новости
-                            li.menu__item
-                                a.menu__link(href="#") Партнерам и дистрибьюторам
-                            li.menu__item
-                                a.menu__link(href="#") Контакты
-            .mobile-menu__close(data-close-menu)
-                img(src=require("../../assets/img/close.svg"), width="30") 
-                | закрыть
+        include ../templates/header
+        include ../templates/mobile-menu
 
-            
-                    
         main.index
             section.p-section
                 .container
@@ -123,57 +65,8 @@ html
                                         span Кисломолочная 
                                         | продукция
 
-        footer.p-footer
-            .container
-                .row    
-                    .col-sm-6.col-md-7
-                        h1.title.title_h1.p-footer__title Контакты
-                        p Россия,353860, Краснодарский край,
-                        p г.Приморско-Ахтарск, ул Железнодорожная,38
-                        p факс: 8 861 433-09-58
-                        p отдел продаж +7 918 980-99-44
-                        p e-mail: 
-                            a(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
-                    .col-sm-3.col-md-2
-                        ul.footer-menu
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") О компании
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") Продукция
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") Новости
-                    .col-sm-3.col-md-3
-                        ul.footer-menu
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") Партнерам
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") Дистрибьюторам
-                            li.footer-menu__item
-                                a.footer-menu__link(href="#") Контакты
-        #recall-popup.white-popup.mfp-hide.poup
-            h2.popup__title Мы перезвоним
-            p.popup__description  Оставьте ваши контакты и мы свяжемся с вами в ближайшее время
-            form.brand-form(action="#", method="post", novaldate)
-                .brand-form__item
-                    .brand-input
-                        input#clientName(name="clientName")
-                        label(for="clientName") Ваше имя
-                .brand-form__item
-                    .brand-input
-                        input#clientPhone(name="clientPhone", data-mask="phone")
-                        label(for="clientPhone") Номер телефона
-                .brand-form__item
-                    button.brand-button(type="submit") Перезвоните мне
-
-        .search-box(data-searchbox)
-            form(action="#", method="post", novalidate)
-                input.search-box__input(name="searchQuery", placeholder="Что ищем?")
-                .search-box__action
-                    .search-box__action-item
-                        img(src=require("../../assets/img/search.svg"), width="30") 
-                        | искать
-                    .search-box__action-item(data-cancel-search)
-                        img(src=require("../../assets/img/close.svg"), width="27") 
-                        | закрыть
+        include ../templates/footer 
+        include ../templates/recall-form
+        include ../templates/search-box
 
 

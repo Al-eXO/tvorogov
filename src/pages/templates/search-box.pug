@@ -1,0 +1,10 @@
+.search-box(data-searchbox)
+    form(action="#", method="post", novalidate)
+        input.search-box__input(name="searchQuery", placeholder="Что ищем?")
+        .search-box__action
+            .search-box__action-item
+                img(src=require("../../assets/img/search.svg"), width="30") 
+                | искать
+            .search-box__action-item(data-cancel-search)
+                img(src=require("../../assets/img/close.svg"), width="27") 
+                | закрыть

@@ -1,0 +1,14 @@
+#recall-popup.white-popup.mfp-hide.poup
+    h2.popup__title Мы перезвоним
+    p.popup__description  Оставьте ваши контакты и мы свяжемся с вами в ближайшее время
+    form.brand-form(action="#", method="post", novaldate)
+        .brand-form__item
+            .brand-input
+                input#clientName(name="clientName")
+                label(for="clientName") Ваше имя
+        .brand-form__item
+            .brand-input
+                input#clientPhone(name="clientPhone", data-mask="phone")
+                label(for="clientPhone") Номер телефона
+        .brand-form__item
+            button.brand-button(type="submit") Перезвоните мне

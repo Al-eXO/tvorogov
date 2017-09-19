@@ -1,0 +1,37 @@
+header.p-header
+    .p-header__wrapper
+        .p-header__bg
+        .container
+            .row    
+                .col-lg-12
+                    .p-header__item
+                        .logo
+                    .p-header__holder
+                        .p-header__item.hidden-sm.hidden-xs.hidden-md
+                            ul.menu.p-header__menu
+                                li.menu__item
+                                    a.menu__link(href="#") О компании
+                                li.menu__item
+                                    a.menu__link(href="#") Продукция
+                                li.menu__item
+                                    a.menu__link(href="#") Новости
+                                li.menu__item
+                                    a.menu__link(href="#") Партнерам и дистрибьюторам
+                                li.menu__item
+                                    a.menu__link(href="#") Контакты
+                        .p-header__item.hidden-xs
+                            .p-header__contacts
+                                a.p-header__phone(href="tel: 89189809944") 9 918 980-99-44
+                                a.p-header__call.popup-link(href="#recall-popup") Перезвоните мне
+                                a.p-header__email(href="mailto:p-a_molzavod@mail.ru") p-a_molzavod@mail.ru
+                        .p-header__item
+                            a.p-header__search.p-header__icon(href="#", data-start-search)
+                                img(src=require("../../assets/img/search.png"))
+                        .p-header__item.hidden-lg
+                            a.p-header__burger.p-header__icon(href="#", data-open-menu)
+                                img(src=require("../../assets/img/menu.svg"))
+            .row
+                .col-lg-12
+                    .p-header__title
+                        p.p-header__title_ligth АО "Приморско-Ахтарский молочный завод"
+                        p ТМ «ТВОРОГОВЪ»
