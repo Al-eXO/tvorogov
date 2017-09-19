@@ -1,4 +1,5 @@
 import '../../assets/styl/common.styl';
-import './index.styl';
-import './index.pug';
+import './catalog.styl';
+import './catalog.pug';
 import mainScripts from '../../assets/main.js';
+
