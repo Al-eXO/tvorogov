@@ -1,4 +1,4 @@
-mixin header(light_text, text)
+mixin header(light_text, text, link, link_text)
     header.p-header
         .p-header__wrapper
             .p-header__bg
@@ -11,9 +11,9 @@ mixin header(light_text, text)
                             .p-header__item.hidden-sm.hidden-xs.hidden-md
                                 ul.menu.p-header__menu
                                     li.menu__item
-                                        a.menu__link(href="#") О компании
+                                        a.menu__link(href="about.html") О компании
                                     li.menu__item
-                                        a.menu__link(href="#") Продукция
+                                        a.menu__link(href="catalog.html") Продукция
                                     li.menu__item
                                         a.menu__link(href="#") Новости
                                     li.menu__item
@@ -34,5 +34,7 @@ mixin header(light_text, text)
                 .row
                     .col-lg-12
                         .p-header__title
+                            a.p-header__back(href= link) #{link_text}
+                                i.fa.fa-arrow-down(aria-hidden="true")
                             p.p-header__title_ligth #{light_text}
                             p #{text}
