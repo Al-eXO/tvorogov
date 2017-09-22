@@ -1,0 +1,40 @@
+.catlog-category {
+  margin-bottom: 90px;
+}
+.catlog-category__item {
+  color: #285e92;
+  display: block;
+  background-color: #fff;
+  border: 1px solid #edeadc;
+  border-radius: 8px;
+  padding: 31px 28px;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+  margin-bottom: 30px;
+}
+.catlog-category__item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 20px rgba(40,94,146,0.15);
+}
+.catlog-category__photo {
+  display: block;
+  height: 245px;
+  width: 180px;
+  margin: 0 auto 35px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.catlog-category__caption {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.catlog-category__link {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.catlog-category__link i {
+  display: inline-block;
+  margin-left: 5px;
+}

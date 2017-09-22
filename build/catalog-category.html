@@ -6,7 +6,8 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="./css/common.css" rel="stylesheet"><link href="./css/catalog.css" rel="stylesheet"></head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="./css/common.css" rel="stylesheet"><link href="./css/catalog-category.css" rel="stylesheet"></head>
   <body>
         <header class="p-header">
           <div class="p-header__wrapper">
@@ -38,8 +39,11 @@
               <div class="row">
                 <div class="col-lg-12">
                   <div class="p-header__title">
+                    <ul class="breadcrumbs">
+                      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog.html">Каталог продукции</a></li>
+                    </ul>
                     <p class="p-header__title_ligth"></p>
-                    <p>Каталог продукции</p>
+                    <p>Молоко</p>
                   </div>
                 </div>
               </div>
@@ -69,26 +73,24 @@
     <main class="index">
       <section class="p-section">
         <div class="container">
-          <div class="quick-catalog index__quick-catalog">
+          <div class="catlog-category">
             <div class="row">
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-milk-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Молоко</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_blue" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Сметана</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_gold" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-ice-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Мороженое</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-butter-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Масло</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-cottage-cheese-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Творог</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-milk-production-bg.jpg');"></div>
-                  <div class="quick-catalog__caption"><span>Кисломолочная </span>продукция</div></a></div>
+              <div class="col-sm-6 col-md-4 col-lg-3"><a class="catlog-category__item" href="product.html"> 
+                  <div class="catlog-category__photo" style="background-image: url('assets/images/product-milk-1.jpg');"></div>
+                  <div class="catlog-category__caption">Молоко 2,5%, 0,9л</div>
+                  <div class="catlog-category__link">Подробнее<i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+              <div class="col-sm-6 col-md-4 col-lg-3"><a class="catlog-category__item" href="product.html"> 
+                  <div class="catlog-category__photo" style="background-image: url('assets/images/product-milk-2.jpg');"></div>
+                  <div class="catlog-category__caption">Молоко 2,5%, 1л</div>
+                  <div class="catlog-category__link">Подробнее<i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+              <div class="col-sm-6 col-md-4 col-lg-3"><a class="catlog-category__item" href="product.html"> 
+                  <div class="catlog-category__photo" style="background-image: url('assets/images/product-milk-3.jpg');"></div>
+                  <div class="catlog-category__caption">Молоко 2,5%, 0,5л</div>
+                  <div class="catlog-category__link">Подробнее<i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+              <div class="col-sm-6 col-md-4 col-lg-3"><a class="catlog-category__item" href="product.html"> 
+                  <div class="catlog-category__photo" style="background-image: url('assets/images/product-milk-4.jpg');"></div>
+                  <div class="catlog-category__caption">Молоко 3,2%, 0,5л</div>
+                  <div class="catlog-category__link">Подробнее<i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
             </div>
           </div>
         </div>
@@ -152,5 +154,5 @@
     </div>
   </form>
 </div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="catalog.js"></script></body>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="catalog-category.js"></script></body>
 </html>

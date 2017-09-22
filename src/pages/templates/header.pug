@@ -1,4 +1,5 @@
-mixin header(light_text, text, link, link_text)
+mixin header(light_text, text, breadcrumbs)
+    - breadcrumbs = breadcrumbs || null
     header.p-header
         .p-header__wrapper
             .p-header__bg
@@ -34,7 +35,10 @@ mixin header(light_text, text, link, link_text)
                 .row
                     .col-lg-12
                         .p-header__title
-                            a.p-header__back(href= link) #{link_text}
-                                i.fa.fa-arrow-down(aria-hidden="true")
+                            - if (breadcrumbs)
+                                ul.breadcrumbs
+                                    each crumb in breadcrumbs
+                                        li.breadcrumbs__item
+                                            a.breadcrumbs__link(href= crumb.link)= crumb.caption
                             p.p-header__title_ligth #{light_text}
                             p #{text}

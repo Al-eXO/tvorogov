@@ -34,7 +34,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		3: 0
+/******/ 		5: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -410,6 +410,162 @@ function pug_rethrow(err, filename, lineno, str){
 
 /***/ }),
 /* 1 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/search.png";
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/menu.svg";
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(0);
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
+pug_html = pug_html + "\n\u003Cnav class=\"mobile-menu\" data-mobile-menu\u003E\n  \u003Cdiv class=\"mobile-menu__bg\"\u003E\u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"container-fluid\"\u003E\n    \u003Cdiv class=\"row\"\u003E\n      \u003Cdiv class=\"col-xs-12\"\u003E\n        \u003Cdiv class=\"logo mobile-menu__logo\"\u003E\u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-xs-12 text-center\"\u003E\n        \u003Cul class=\"menu\"\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EО компании\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EПродукция\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EНовости\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EПартнерам и дистрибьюторам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EКонтакты\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"mobile-menu__close\" data-close-menu\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(22), true, true)+" width=\"30\"") + "\u003Eзакрыть\u003C\u002Fdiv\u003E\n\u003C\u002Fnav\u003E";;return pug_html;};
+module.exports = template;
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(0);
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
+pug_html = pug_html + "\n\u003Cfooter class=\"p-footer\"\u003E\n  \u003Cdiv class=\"container\"\u003E\n    \u003Cdiv class=\"row\"\u003E   \n      \u003Cdiv class=\"col-sm-6 col-md-7\"\u003E\n        \u003Ch1 class=\"title title_h1 p-footer__title\"\u003EКонтакты\u003C\u002Fh1\u003E\n        \u003Cp\u003EРоссия,353860, Краснодарский край,\u003C\u002Fp\u003E\n        \u003Cp\u003Eг.Приморско-Ахтарск, ул Железнодорожная,38\u003C\u002Fp\u003E\n        \u003Cp\u003Eфакс: 8 861 433-09-58\u003C\u002Fp\u003E\n        \u003Cp\u003Eотдел продаж +7 918 980-99-44\u003C\u002Fp\u003E\n        \u003Cp\u003Ee-mail: \u003Ca href=\"mailto:p-a_molzavod@mail.ru\"\u003Ep-a_molzavod@mail.ru\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-sm-3 col-md-2\"\u003E\n        \u003Cul class=\"footer-menu\"\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EО компании\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EПродукция\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EНовости\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-sm-3 col-md-3\"\u003E\n        \u003Cul class=\"footer-menu\"\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EПартнерам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EДистрибьюторам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EКонтакты\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Ffooter\u003E";;return pug_html;};
+module.exports = template;
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(0);
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
+pug_html = pug_html + "\n\u003Cdiv class=\"white-popup mfp-hide poup\" id=\"recall-popup\"\u003E\n  \u003Ch2 class=\"popup__title\"\u003EМы перезвоним\u003C\u002Fh2\u003E\n  \u003Cp class=\"popup__description\"\u003E Оставьте ваши контакты и мы свяжемся с вами в ближайшее время\u003C\u002Fp\u003E\n  \u003Cform class=\"brand-form\" action=\"#\" method=\"post\" novaldate\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cdiv class=\"brand-input\"\u003E\n        \u003Cinput id=\"clientName\" name=\"clientName\"\u003E\n        \u003Clabel for=\"clientName\"\u003EВаше имя\u003C\u002Flabel\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cdiv class=\"brand-input\"\u003E\n        \u003Cinput id=\"clientPhone\" name=\"clientPhone\" data-mask=\"phone\"\u003E\n        \u003Clabel for=\"clientPhone\"\u003EНомер телефона\u003C\u002Flabel\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cbutton class=\"brand-button\" type=\"submit\"\u003EПерезвоните мне\u003C\u002Fbutton\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fform\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
+module.exports = template;
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pug = __webpack_require__(0);
+
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
+pug_html = pug_html + "\n\u003Cdiv class=\"search-box\" data-searchbox\u003E\n  \u003Cform action=\"#\" method=\"post\" novalidate\u003E\n    \u003Cinput class=\"search-box__input\" name=\"searchQuery\" placeholder=\"Что ищем?\"\u003E\n    \u003Cdiv class=\"search-box__action\"\u003E\n      \u003Cdiv class=\"search-box__action-item\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(33), true, true)+" width=\"30\"") + "\u003Eискать\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"search-box__action-item\" data-cancel-search\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(22), true, true)+" width=\"27\"") + "\u003Eзакрыть\u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fform\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
+module.exports = template;
+
+/***/ }),
+/* 8 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(Inputmask) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_magnific_popup__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_magnific_popup___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_magnific_popup__);
+
+
+
+class mainScripts{
+
+    constructor(){
+        this.initEvents();
+        this.initPopups();
+        this.initMasks();
+    }
+
+    initPopups(){
+        var self = this;
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.popup-link').magnificPopup({
+            type: 'inline',
+            removalDelay: 300,
+            mainClass: 'mfp-fade',
+            callbacks: {
+                open: function(){
+                    self.updateInputs();
+                },
+                close: function(){
+                    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('form').get(0).reset();
+                }
+            }
+        });
+    }
+
+    updateInputs(){
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.brand-input input').each(function(){
+            if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).val() === ''){
+                __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').removeClass('active');
+            }
+        })
+    }
+
+    initMasks(){
+        var im = new Inputmask({
+            mask: '+7 (999) 999 99 99',
+            placeholder: '+7 (...) ... .. ..'
+        });
+        im.mask('[data-mask="phone"]');
+
+    }
+
+    initEvents(){
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.brand-input input').on('focus', function(){
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').addClass('active');
+        }).on('blur', function(){
+            if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).val() === ''){
+                __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').removeClass('active');
+            }
+        });
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-start-search]', function(){
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').addClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').addClass('blured');
+        });
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-cancel-search]', function(){
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('form').get(0).reset();
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').animate({ opacity: 0 }, 600, function(){
+                __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').removeClass('active').css({'opacity': ''});
+                __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').removeClass('blured');
+
+            });
+        });
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-open-menu]', function(){
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').addClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').addClass('blured');
+        });
+
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-close-menu]', function() {
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').removeClass('active');
+            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').removeClass('blured');
+        })
+    }
+}
+/* unused harmony export default */
+
+
+__WEBPACK_IMPORTED_MODULE_0_jquery___default()(function(){
+    var pageScripts = new mainScripts();
+    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').addClass('loaded');
+})   
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(34)))
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -550,7 +706,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 });
 
 /***/ }),
-/* 2 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -562,7 +718,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 */
 
 !function(factory) {
-     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(23), __webpack_require__(24) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(9), __webpack_require__(23), __webpack_require__(24) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./global/window"), require("./global/document")) : window.Inputmask = factory(window.dependencyLib || jQuery, window, document);
@@ -2201,168 +2357,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 });
 
 /***/ }),
-/* 3 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/search.png";
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/menu.svg";
-
-/***/ }),
-/* 6 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(0);
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cnav class=\"mobile-menu\" data-mobile-menu\u003E\n  \u003Cdiv class=\"mobile-menu__bg\"\u003E\u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"container-fluid\"\u003E\n    \u003Cdiv class=\"row\"\u003E\n      \u003Cdiv class=\"col-xs-12\"\u003E\n        \u003Cdiv class=\"logo mobile-menu__logo\"\u003E\u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-xs-12 text-center\"\u003E\n        \u003Cul class=\"menu\"\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EО компании\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EПродукция\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EНовости\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EПартнерам и дистрибьюторам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"menu__item\"\u003E\u003Ca class=\"menu__link\" href=\"#\"\u003EКонтакты\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n  \u003Cdiv class=\"mobile-menu__close\" data-close-menu\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(22), true, true)+" width=\"30\"") + "\u003Eзакрыть\u003C\u002Fdiv\u003E\n\u003C\u002Fnav\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */,
 /* 11 */,
 /* 12 */,
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(0);
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cfooter class=\"p-footer\"\u003E\n  \u003Cdiv class=\"container\"\u003E\n    \u003Cdiv class=\"row\"\u003E   \n      \u003Cdiv class=\"col-sm-6 col-md-7\"\u003E\n        \u003Ch1 class=\"title title_h1 p-footer__title\"\u003EКонтакты\u003C\u002Fh1\u003E\n        \u003Cp\u003EРоссия,353860, Краснодарский край,\u003C\u002Fp\u003E\n        \u003Cp\u003Eг.Приморско-Ахтарск, ул Железнодорожная,38\u003C\u002Fp\u003E\n        \u003Cp\u003Eфакс: 8 861 433-09-58\u003C\u002Fp\u003E\n        \u003Cp\u003Eотдел продаж +7 918 980-99-44\u003C\u002Fp\u003E\n        \u003Cp\u003Ee-mail: \u003Ca href=\"mailto:p-a_molzavod@mail.ru\"\u003Ep-a_molzavod@mail.ru\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-sm-3 col-md-2\"\u003E\n        \u003Cul class=\"footer-menu\"\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EО компании\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EПродукция\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EНовости\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"col-sm-3 col-md-3\"\u003E\n        \u003Cul class=\"footer-menu\"\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EПартнерам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EДистрибьюторам\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n          \u003Cli class=\"footer-menu__item\"\u003E\u003Ca class=\"footer-menu__link\" href=\"#\"\u003EКонтакты\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n        \u003C\u002Ful\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fdiv\u003E\n\u003C\u002Ffooter\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(0);
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"white-popup mfp-hide poup\" id=\"recall-popup\"\u003E\n  \u003Ch2 class=\"popup__title\"\u003EМы перезвоним\u003C\u002Fh2\u003E\n  \u003Cp class=\"popup__description\"\u003E Оставьте ваши контакты и мы свяжемся с вами в ближайшее время\u003C\u002Fp\u003E\n  \u003Cform class=\"brand-form\" action=\"#\" method=\"post\" novaldate\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cdiv class=\"brand-input\"\u003E\n        \u003Cinput id=\"clientName\" name=\"clientName\"\u003E\n        \u003Clabel for=\"clientName\"\u003EВаше имя\u003C\u002Flabel\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cdiv class=\"brand-input\"\u003E\n        \u003Cinput id=\"clientPhone\" name=\"clientPhone\" data-mask=\"phone\"\u003E\n        \u003Clabel for=\"clientPhone\"\u003EНомер телефона\u003C\u002Flabel\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n    \u003Cdiv class=\"brand-form__item\"\u003E\n      \u003Cbutton class=\"brand-button\" type=\"submit\"\u003EПерезвоните мне\u003C\u002Fbutton\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fform\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var pug = __webpack_require__(0);
-
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\n\u003Cdiv class=\"search-box\" data-searchbox\u003E\n  \u003Cform action=\"#\" method=\"post\" novalidate\u003E\n    \u003Cinput class=\"search-box__input\" name=\"searchQuery\" placeholder=\"Что ищем?\"\u003E\n    \u003Cdiv class=\"search-box__action\"\u003E\n      \u003Cdiv class=\"search-box__action-item\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(33), true, true)+" width=\"30\"") + "\u003Eискать\u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"search-box__action-item\" data-cancel-search\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(22), true, true)+" width=\"27\"") + "\u003Eзакрыть\u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fform\u003E\n\u003C\u002Fdiv\u003E";;return pug_html;};
-module.exports = template;
-
-/***/ }),
-/* 16 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(Inputmask) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_magnific_popup__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_magnific_popup___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_magnific_popup__);
-
-
-
-class mainScripts{
-
-    constructor(){
-        this.initEvents();
-        this.initPopups();
-        this.initMasks();
-    }
-
-    initPopups(){
-        var self = this;
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.popup-link').magnificPopup({
-            type: 'inline',
-            removalDelay: 300,
-            mainClass: 'mfp-fade',
-            callbacks: {
-                open: function(){
-                    self.updateInputs();
-                },
-                close: function(){
-                    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('form').get(0).reset();
-                }
-            }
-        });
-    }
-
-    updateInputs(){
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.brand-input input').each(function(){
-            if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).val() === ''){
-                __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').removeClass('active');
-            }
-        })
-    }
-
-    initMasks(){
-        var im = new Inputmask({
-            mask: '+7 (999) 999 99 99',
-            placeholder: '+7 (...) ... .. ..'
-        });
-        im.mask('[data-mask="phone"]');
-
-    }
-
-    initEvents(){
-
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()('.brand-input input').on('focus', function(){
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').addClass('active');
-        }).on('blur', function(){
-            if (__WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).val() === ''){
-                __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('.brand-input').removeClass('active');
-            }
-        });
-
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-start-search]', function(){
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').addClass('active');
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').addClass('blured');
-        });
-
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-cancel-search]', function(){
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()(this).parents('form').get(0).reset();
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').animate({ opacity: 0 }, 600, function(){
-                __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-searchbox]').removeClass('active').css({'opacity': ''});
-                __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').removeClass('blured');
-
-            });
-        });
-
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-open-menu]', function(){
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').addClass('active');
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').addClass('blured');
-        });
-
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()(document).on('click', '[data-close-menu]', function() {
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').removeClass('active');
-            __WEBPACK_IMPORTED_MODULE_0_jquery___default()('body').removeClass('blured');
-        })
-    }
-}
-/* unused harmony export default */
-
-
-__WEBPACK_IMPORTED_MODULE_0_jquery___default()(function(){
-    var pageScripts = new mainScripts();
-    __WEBPACK_IMPORTED_MODULE_0_jquery___default()('[data-mobile-menu]').addClass('loaded');
-})   
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(34)))
-
-/***/ }),
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
 /* 17 */,
 /* 18 */,
 /* 19 */,
@@ -13455,7 +13455,7 @@ __webpack_require__(38);
 // require("./dist/inputmask/phone-codes/phone-uk");
 // require("./dist/inputmask/phone-codes/phone");
 
-module.exports = __webpack_require__(2);
+module.exports = __webpack_require__(10);
 
 
 /***/ }),
@@ -13471,7 +13471,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 */
 
 !function(factory) {
-     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(2) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(9), __webpack_require__(10) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);
@@ -13969,7 +13969,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 */
 
 !function(factory) {
-     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(2) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(9), __webpack_require__(10) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);
@@ -14074,7 +14074,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 */
 
 !function(factory) {
-     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(2) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(9), __webpack_require__(10) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);
@@ -14429,7 +14429,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 */
 
 !function(factory) {
-     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(1), __webpack_require__(2) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+     true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [ __webpack_require__(9), __webpack_require__(10) ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);

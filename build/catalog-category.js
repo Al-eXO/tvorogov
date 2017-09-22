@@ -1,58 +1,16 @@
-webpackJsonp([1],{
+webpackJsonp([2],{
 
-/***/ 16:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-milk-bg.jpg";
-
-/***/ }),
-
-/***/ 17:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-sour-cream-bg.jpg";
-
-/***/ }),
-
-/***/ 18:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-ice-cream-bg.jpg";
-
-/***/ }),
-
-/***/ 19:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-butter-bg.jpg";
-
-/***/ }),
-
-/***/ 20:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-cottage-cheese-bg.jpg";
-
-/***/ }),
-
-/***/ 21:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/products-sour-milk-production-bg.jpg";
-
-/***/ }),
-
-/***/ 43:
+/***/ 46:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_styl__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__catalog_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_pug__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__catalog_pug__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_category_styl__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_category_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__catalog_category_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_category_pug__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_category_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__catalog_category_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(8);
 
 
@@ -63,20 +21,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 44:
+/***/ 47:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 45:
+/***/ 48:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
 
-function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;var pug_indent = [];
-pug_html = pug_html + "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Ctitle\u003EКаталог продукции\u003C\u002Ftitle\u003E\n    \u003Cmeta name=\"description\" content=\"\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E";
+function template(locals) {var pug_html = "", pug_mixins = {}, pug_interp;;var locals_for_with = (locals || {});(function (a) {var pug_indent = [];
+pug_html = pug_html + "\u003C!DOCTYPE html\u003E\n\u003Chtml\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\"UTF-8\"\u003E\n    \u003Ctitle\u003EКаталог продукции\u003C\u002Ftitle\u003E\n    \u003Cmeta name=\"description\" content=\"\"\u003E\n    \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"\u003E\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\"\u003E\n    \u003Clink rel=\"stylesheet\" href=\"https:\u002F\u002Fmaxcdn.bootstrapcdn.com\u002Ffont-awesome\u002F4.7.0\u002Fcss\u002Ffont-awesome.min.css\"\u003E\n  \u003C\u002Fhead\u003E\n  \u003Cbody\u003E";
 pug_mixins["header"] = pug_interp = function(light_text, text, breadcrumbs){
 var block = (this && this.block), attributes = (this && this.attributes) || {};
 breadcrumbs = breadcrumbs || null
@@ -190,12 +148,41 @@ pug_html = pug_html + "\u003C\u002Fdiv\u003E\n    ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fheader\u003E";
 };
+a = [ { "caption": "Каталог продукции", "link": "/catalog.html"} ]
 pug_indent.push('    ');
-pug_mixins["header"]('', 'Каталог продукции');
+pug_mixins["header"]('', 'Молоко', a);
 pug_indent.pop();
-pug_html = pug_html + (null == (pug_interp = __webpack_require__(4).call(this, locals)) ? "" : pug_interp) + "\n    \u003Cmain class=\"index\"\u003E\n      \u003Csection class=\"p-section\"\u003E\n        \u003Cdiv class=\"container\"\u003E\n          \u003Cdiv class=\"quick-catalog index__quick-catalog\"\u003E\n            \u003Cdiv class=\"row\"\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(16) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМолоко\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_blue\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(17) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EСметана\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_gold\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(18) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМороженое\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(19) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМасло\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(20) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EТворог\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(21) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003E\u003Cspan\u003EКисломолочная \u003C\u002Fspan\u003Eпродукция\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + "\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";;return pug_html;};
+pug_html = pug_html + (null == (pug_interp = __webpack_require__(4).call(this, locals)) ? "" : pug_interp) + "\n    \u003Cmain class=\"index\"\u003E\n      \u003Csection class=\"p-section\"\u003E\n        \u003Cdiv class=\"container\"\u003E\n          \u003Cdiv class=\"catlog-category\"\u003E\n            \u003Cdiv class=\"row\"\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n                  \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(49) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,9л\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n                  \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(50) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 1л\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n                  \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(51) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,5л\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n                  \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(52) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 3,2%, 0,5л\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + "\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";}.call(this,"a" in locals_for_with?locals_for_with.a:typeof a!=="undefined"?a:undefined));;return pug_html;};
 module.exports = template;
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/product-milk-1.jpg";
+
+/***/ }),
+
+/***/ 50:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/product-milk-2.jpg";
+
+/***/ }),
+
+/***/ 51:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/product-milk-3.jpg";
+
+/***/ }),
+
+/***/ 52:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/product-milk-4.jpg";
 
 /***/ })
 
-},[43]);
+},[46]);

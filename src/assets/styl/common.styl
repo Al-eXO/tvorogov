@@ -109,22 +109,7 @@ a
             transition 400ms color
             &:hover 
                 color: rgba(#fff, .7)
-    &__back
-        color #fff
-        font-size 14px
-        font-weight 300
-        line-height 20px
-        opacity .7
-        transition opacity 400ms
-        i
-            display inline-block
-            margin-left 5px
-            font-size 9px
-            font-weight 400
-            line-height 20px
-        &:hover 
-            color #fff
-            opacity 1
+    
     &__burger, &__search
         opacity .7
         transition opacity 400ms
@@ -138,7 +123,36 @@ a
             display block
             color #fff
 
-
+.breadcrumbs
+    list-style none
+    padding 0
+    font-size 0
+    line-height 0
+    margin 0
+    &__item
+        display inline-block
+        &:after
+            font-family 'FontAwesome'
+            display inline-block
+            margin-left 5px
+            margin-right 5px
+            font-size 9px
+            font-weight 400
+            line-height 20px
+            content '\f061'
+        &:last-child
+            &:after
+                content '\f063'
+    &__link
+        color #fff
+        font-size 14px
+        font-weight 300
+        line-height 20px
+        opacity .7
+        transition opacity 400ms
+        &:hover 
+            color #fff
+            opacity 1
         
 .p-footer
     background-color rgba(#f1f1f0, .4)
@@ -438,6 +452,18 @@ a
     text-align center
     width 100%
     color #fff
+    &_inverse
+        margin 0
+        display inline-block
+        border 2px solid #285e91
+        color #285e91
+        border-radius 30px
+        padding 18px 60px 20px
+        background transparent
+        transition border 400ms ease-out, background 400ms ease-out, color 400ms ease-out
+        &:hover 
+            background #285e91
+            color #fff
 
 
 @media screen and (min-width 992px) and (max-width 1199px)
@@ -505,6 +531,8 @@ a
             font-size 28px
             padding 10px 0
 
+    
+
 
 @media screen and (max-width 465px)
     .logo
@@ -538,7 +566,8 @@ a
             margin-bottom 15px
             &_size_small
                 font-size 24px
-
+    .brand-button_inverse
+        padding 18px 15px 20px
     .p-footer
         padding 65px 0
     .footer-menu

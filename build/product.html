@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="./css/common.css" rel="stylesheet"><link href="./css/catalog.css" rel="stylesheet"></head>
+  <link href="./css/common.css" rel="stylesheet"><link href="./css/product.css" rel="stylesheet"></head>
   <body>
         <header class="p-header">
           <div class="p-header__wrapper">
@@ -38,8 +38,12 @@
               <div class="row">
                 <div class="col-lg-12">
                   <div class="p-header__title">
+                    <ul class="breadcrumbs">
+                      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog.html">Каталог продукции</a></li>
+                      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog-category.html">Молоко</a></li>
+                    </ul>
                     <p class="p-header__title_ligth"></p>
-                    <p>Каталог продукции</p>
+                    <p>Молоко 2,5%, 0,9л</p>
                   </div>
                 </div>
               </div>
@@ -69,26 +73,52 @@
     <main class="index">
       <section class="p-section">
         <div class="container">
-          <div class="quick-catalog index__quick-catalog">
+          <div class="product">
             <div class="row">
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-milk-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Молоко</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_blue" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Сметана</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_gold" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-ice-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Мороженое</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-butter-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Масло</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-cottage-cheese-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Творог</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark" href="catalog-category.html"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-milk-production-bg.jpg');"></div>
-                  <div class="quick-catalog__caption"><span>Кисломолочная </span>продукция</div></a></div>
+              <div class="col-xs-12 col-sm-4"><img class="img-responsive product__photo" src="assets/images/product-detail-milk.png"></div>
+              <div class="col-xs-12 col-sm-8">
+                <div class="product__title">Молоко 2,5%, 0,9л</div>
+                <div class="product__description">
+                  <p>Пример заполнения страницы:</p>
+                  <p>Основным направлением деятельности компании является изготовление и реализация … </p>
+                  <p>(Укажите направление деятельности Вашей компании).</p>
+                  <p>Продукция компании «...» (Введите название компании) находит обширное применение в сфере … (Укажите сферу деятельности).</p>
+                </div>
+                <div class="product__props props">
+                  <div class="props__item"> 
+                    <div class="props__caption">Массовая доля жира: </div>
+                    <div class="props__value">2,5%</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Объем: </div>
+                    <div class="props__value">1000 мл</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Состав: </div>
+                    <div class="props__value">молоко цельное, молоко обезжиренное</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Пищевая ценность на 100 г: </div>
+                    <div class="props__value">белки – 3 г, жиры – 2,5 г, углеводы – 4,7 г.</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Энерг. ценность на 100 г: </div>
+                    <div class="props__value">223 кДж/53 ккал</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Условия хранения: </div>
+                    <div class="props__value">хранить при температуре от +2 до +6°С</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">Срок годности: </div>
+                    <div class="props__value">5 суток</div>
+                  </div>
+                  <div class="props__item"> 
+                    <div class="props__caption">ГОСТ 31450-2013</div>
+                  </div>
+                </div>
+                <div class="product__action"><a class="brand-button brand-button_inverse" href="#">Партнерам и дистрибьюторам</a></div>
+              </div>
             </div>
           </div>
         </div>
@@ -152,5 +182,5 @@
     </div>
   </form>
 </div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="catalog.js"></script></body>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="product.js"></script></body>
 </html>
