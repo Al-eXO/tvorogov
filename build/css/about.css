@@ -1,0 +1,40 @@
+.about {
+  color: #285e92;
+}
+.about h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0 0 30px;
+}
+.about p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+.about__wrapper {
+  width: 55%;
+  margin-bottom: 350px;
+  position: relative;
+  z-index: 2;
+}
+.about__bg {
+  position: absolute;
+  width: 726px;
+  height: 484px;
+  right: 0;
+  bottom: 0;
+  background: transparent url(../assets/images/milk-shake.png) center center no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .about__wrapper {
+    width: 100%;
+    margin-bottom: 250px;
+  }
+  .about__bg {
+    width: 100%;
+    height: 214px;
+  }
+}
