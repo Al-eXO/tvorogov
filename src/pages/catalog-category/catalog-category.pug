@@ -1,0 +1,52 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title Каталог продукции
+        meta(name="description", content="")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    body
+        include ../templates/header
+        +header('', 'Каталог продукции')
+        
+        include ../templates/mobile-menu
+
+        main.index
+            
+            section.p-section
+                .container
+                    .catlog-category
+                        .row
+                            .col-sm-6.col-md-4.col-lg-3
+                                a.catlog-category__item(href="#") 
+                                    .catlog-category__photo(style="background-image: url('" + require("../../assets/img/product-milk-1.jpg") + "')")
+                                    .catlog-category__caption Молоко 2,5%, 0,9л
+                                    .catlog-category__link Подробнее
+                                        i.fa.fa-angle-right(aria-hidden="true")
+                            .col-sm-6.col-md-4.col-lg-3
+                                a.catlog-category__item(href="#") 
+                                    .catlog-category__photo(style="background-image: url('" + require("../../assets/img/product-milk-2.jpg") + "')")
+                                    .catlog-category__caption Молоко 2,5%, 1л
+                                    .catlog-category__link Подробнее
+                                        i.fa.fa-angle-right(aria-hidden="true")
+                            .col-sm-6.col-md-4.col-lg-3
+                                a.catlog-category__item(href="#") 
+                                    .catlog-category__photo(style="background-image: url('" + require("../../assets/img/product-milk-3.jpg") + "')")
+                                    .catlog-category__caption Молоко 2,5%, 0,5л
+                                    .catlog-category__link Подробнее
+                                        i.fa.fa-angle-right(aria-hidden="true")
+                            .col-sm-6.col-md-4.col-lg-3
+                                a.catlog-category__item(href="#") 
+                                    .catlog-category__photo(style="background-image: url('" + require("../../assets/img/product-milk-4.jpg") + "')")
+                                    .catlog-category__caption Молоко 3,2%, 0,5л
+                                    .catlog-category__link Подробнее
+                                        i.fa.fa-angle-right(aria-hidden="true")
+                            
+
+        include ../templates/footer 
+        include ../templates/recall-form
+        include ../templates/search-box
+
+
