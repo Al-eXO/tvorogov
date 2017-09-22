@@ -1,0 +1,66 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title Каталог продукции
+        meta(name="description", content="")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        include ../templates/header
+        +header('', 'Партнерам<br> и дистрибьюторам')
+        
+        include ../templates/mobile-menu
+
+        main.index
+            
+            section.p-section
+                .container
+                    .partners
+                        .row
+                            .col-sm-5.col-lg-6
+                                h2  Приглашаем к сотрудничеству партнеров по
+                                ul
+                                    li Масложировой продукции
+                                    li Майонезной продукции
+                                    li Мясо-колбасной продукции
+                                    li Овощной и рыбной консервации 
+                            .col-sm-5.col-sm-offset-1.col-lg-6.col-lg-offset-0
+                                img.img-responsive.partners__image(src=require("../../assets/img/trucks.png"))
+                            .col-xs-12
+                                h2 Оставте заявку или свяжитесь с нами любым удобным способом
+                                .row
+                                    .col-sm-6.col-lg-6
+                                        form#partnersForm.brand-form.partners__form(action="#", method="post", novaldate)
+                                            .brand-form__item
+                                                .brand-input
+                                                    input#clientName(name="clientName", data-parsley-required)
+                                                    label(for="clientName") Ваше имя/компания
+                                            .brand-form__item
+                                                .brand-input
+                                                    input#clientPhone(name="clientPhone", data-parsley-required)
+                                                    label(for="clientPhone") Ваши нонтакты
+                                            .brand-form__item
+                                                .brand-input
+                                                    input#clientCity(name="clientCity", data-parsley-required)
+                                                    label(for="clientCity") Ваш город
+                                            .brand-form__item
+                                                .brand-textarea
+                                                    textarea#clientInfo(name="clientInfo", rows="6")
+                                                    label(for="clientInfo") Дополнительная информация
+                                            .brand-form__item
+                                                button.brand-button.partners__submit(type="submit") Отправить заявку
+                                    .col-sm-6.col-lg-5.col-lg-offset-1.hidden-xs
+                                        .partners__contacts
+                                            p Россия,353860, Краснодарский край,
+                                            p г.Приморско-Ахтарск, ул Железнодорожная,38
+                                            p факс: 8 861 433-09-58
+                                            p отдел продаж +7 918 980-99-44
+                                            p e-mail: 
+                                                a(href="mailto:molzavod.tvorogov@mail.ru") molzavod.tvorogov@mail.ru
+
+        include ../templates/footer 
+        include ../templates/recall-form
+        include ../templates/search-box
+
+

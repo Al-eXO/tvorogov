@@ -1,0 +1,41 @@
+.partners
+    margin-bottom 57px
+    &__submit
+        max-width none
+    ul
+        list-style none
+        padding 0
+        margin 0
+        li
+            &:before
+                content '— '
+                display inline
+
+    &__image
+        margin-bottom 75px
+
+    &__contacts
+        p
+            font-family 'Andika'
+            font-size 18px
+            font-weight 400
+            line-height 40px
+            margin 0
+    &__form, &__contacts
+        margin-top 15px
+
+@media screen and (min-width 992px) and (max-width 1199px)
+    .partners
+        &__image
+            margin 60px 0 100px
+            
+@media screen and (min-width 768px) and (max-width 991px)
+    .partners
+        &__image
+            margin 60px 0 100px
+@media screen and (max-width 767px)
+    .partners   
+        &__image
+            max-width 250px
+            display block
+            margin 50px auto 60px

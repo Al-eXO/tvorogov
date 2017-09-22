@@ -2193,6 +2193,19 @@ a:active,
 a:focus {
   text-decoration: none;
 }
+h2 {
+  color: #285e92;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #285e92;
+}
 .blured header,
 .blured main,
 .blured footer {
@@ -2652,16 +2665,25 @@ a:focus {
   line-height: 24px;
   margin-bottom: 35px;
 }
-.brand-input {
-  line-height: 60px;
-  height: 60px;
+.brand-input,
+.brand-textarea {
+  line-height: 56px;
+  height: 56px;
   background-color: #e9eff4;
+  border: 2px solid #e9eff4;
   border-radius: 30px;
   min-width: 200px;
   position: relative;
-  transition: background-color 400ms ease-out, box-shadow 400ms ease-out;
+  transition: background-color 400ms ease-out, box-shadow 400ms ease-out, border-color 400ms ease-out;
 }
-.brand-input input {
+.brand-input.error,
+.brand-textarea.error {
+  border-color: #ff0042;
+}
+.brand-input input,
+.brand-textarea input,
+.brand-input textarea,
+.brand-textarea textarea {
   width: 100%;
   background: transparent;
   padding: 0 24px;
@@ -2672,24 +2694,35 @@ a:focus {
   font-weight: 700;
   line-height: 60px;
 }
-.brand-input label {
+.brand-input label,
+.brand-textarea label {
   position: absolute;
   left: 24px;
   top: 0;
   color: #285e92;
   font-size: 16px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 52px;
   transform-origin: 0 0;
   transition: transform 200ms ease-out, line-height 200ms ease-out;
 }
-.brand-input.active {
+.brand-input.active,
+.brand-textarea.active {
   background-color: #f9fbfd;
   box-shadow: inset 0 5px 25px rgba(20,61,99,0.15);
 }
-.brand-input.active label {
+.brand-input.active label,
+.brand-textarea.active label {
   transform: scale(0.7);
   line-height: 35px;
+}
+.brand-textarea {
+  height: auto;
+}
+.brand-textarea textarea {
+  resize: none;
+  line-height: 20px;
+  padding: 24px;
 }
 .brand-form__item + .brand-form__item {
   margin-top: 14px;
@@ -2758,14 +2791,22 @@ a:focus {
     font-size: 18px;
     line-height: 26px;
   }
+  .p-footer {
+    padding: 70px 0;
+  }
 }
 @media screen and (max-width: 767px) {
+  h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
   .p-header__contacts {
     margin-left: 163px;
   }
   .p-header__title {
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 200px;
+    line-height: 38px;
   }
   .p-header__title_ligth {
     font-size: 22px;

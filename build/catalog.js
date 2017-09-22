@@ -1,41 +1,41 @@
 webpackJsonp([1],{
 
-/***/ 16:
+/***/ 17:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-milk-bg.jpg";
 
 /***/ }),
 
-/***/ 17:
+/***/ 18:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-sour-cream-bg.jpg";
 
 /***/ }),
 
-/***/ 18:
+/***/ 19:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-ice-cream-bg.jpg";
 
 /***/ }),
 
-/***/ 19:
+/***/ 20:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-butter-bg.jpg";
 
 /***/ }),
 
-/***/ 20:
+/***/ 21:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-cottage-cheese-bg.jpg";
 
 /***/ }),
 
-/***/ 21:
+/***/ 22:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/products-sour-milk-production-bg.jpg";
@@ -176,7 +176,7 @@ pug_html = pug_html + "\n                ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cp class=\"p-header__title_ligth\"\u003E" + (pug.escape(null == (pug_interp = light_text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + "\u003Cp\u003E" + (null == (pug_interp = text) ? "" : pug_interp) + "\u003C\u002Fp\u003E\n              ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
 pug_html = pug_html + pug_indent.join("");
@@ -193,7 +193,7 @@ pug_html = pug_html + "\u003C\u002Fheader\u003E";
 pug_indent.push('    ');
 pug_mixins["header"]('', 'Каталог продукции');
 pug_indent.pop();
-pug_html = pug_html + (null == (pug_interp = __webpack_require__(4).call(this, locals)) ? "" : pug_interp) + "\n    \u003Cmain class=\"index\"\u003E\n      \u003Csection class=\"p-section\"\u003E\n        \u003Cdiv class=\"container\"\u003E\n          \u003Cdiv class=\"quick-catalog index__quick-catalog\"\u003E\n            \u003Cdiv class=\"row\"\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(16) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМолоко\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_blue\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(17) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EСметана\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_gold\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(18) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМороженое\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(19) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМасло\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(20) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EТворог\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(21) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003E\u003Cspan\u003EКисломолочная \u003C\u002Fspan\u003Eпродукция\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + "\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";;return pug_html;};
+pug_html = pug_html + (null == (pug_interp = __webpack_require__(4).call(this, locals)) ? "" : pug_interp) + "\n    \u003Cmain class=\"index\"\u003E\n      \u003Csection class=\"p-section\"\u003E\n        \u003Cdiv class=\"container\"\u003E\n          \u003Cdiv class=\"quick-catalog index__quick-catalog\"\u003E\n            \u003Cdiv class=\"row\"\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(17) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМолоко\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_blue\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(18) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EСметана\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_gold\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(19) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМороженое\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(20) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EМасло\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(21) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003EТворог\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark\" href=\"catalog-category.html\"\u003E \n                  \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(22) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"quick-catalog__caption\"\u003E\u003Cspan\u003EКисломолочная \u003C\u002Fspan\u003Eпродукция\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fsection\u003E\n    \u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + "\n  \u003C\u002Fbody\u003E\n\u003C\u002Fhtml\u003E";;return pug_html;};
 module.exports = template;
 
 /***/ })

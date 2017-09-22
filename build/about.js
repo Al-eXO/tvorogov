@@ -1,4 +1,4 @@
-webpackJsonp([4],{
+webpackJsonp([5],{
 
 /***/ 40:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -134,7 +134,7 @@ pug_html = pug_html + "\n                ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003Cp class=\"p-header__title_ligth\"\u003E" + (pug.escape(null == (pug_interp = light_text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n                ";
 pug_html = pug_html + pug_indent.join("");
-pug_html = pug_html + "\u003Cp\u003E" + (pug.escape(null == (pug_interp = text) ? "" : pug_interp)) + "\u003C\u002Fp\u003E\n              ";
+pug_html = pug_html + "\u003Cp\u003E" + (null == (pug_interp = text) ? "" : pug_interp) + "\u003C\u002Fp\u003E\n              ";
 pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fdiv\u003E\n            ";
 pug_html = pug_html + pug_indent.join("");

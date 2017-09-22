@@ -7,6 +7,7 @@ export default class mainScripts{
         this.initEvents();
         this.initPopups();
         this.initMasks();
+        this.updateInputs();
     }
 
     initPopups(){
@@ -31,7 +32,12 @@ export default class mainScripts{
             if ($(this).val() === ''){
                 $(this).parents('.brand-input').removeClass('active');
             }
-        })
+        });
+        $('.brand-textarea textarea').each(function(){
+            if ($(this).val() === ''){
+                $(this).parents('.brand-textarea').removeClass('active');
+            }
+        });
     }
 
     initMasks(){
@@ -44,6 +50,14 @@ export default class mainScripts{
     }
 
     initEvents(){
+
+        $('.brand-textarea textarea').on('focus', function(){
+            $(this).parents('.brand-textarea').addClass('active');
+        }).on('blur', function(){
+            if ($(this).val() === ''){
+                $(this).parents('.brand-textarea').removeClass('active');
+            }
+        });
 
         $('.brand-input input').on('focus', function(){
             $(this).parents('.brand-input').addClass('active');
@@ -79,7 +93,7 @@ export default class mainScripts{
     }
 }
 
-$(function(){
+window.onload = function(){
     var pageScripts = new mainScripts();
     $('[data-mobile-menu]').addClass('loaded');
-})   
+}

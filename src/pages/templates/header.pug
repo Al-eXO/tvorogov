@@ -41,4 +41,4 @@ mixin header(light_text, text, breadcrumbs)
                                         li.breadcrumbs__item
                                             a.breadcrumbs__link(href= crumb.link)= crumb.caption
                             p.p-header__title_ligth #{light_text}
-                            p #{text}
+                            p!= text
