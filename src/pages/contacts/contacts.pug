@@ -1,0 +1,45 @@
+include ../templates/head
+include ../templates/header
++header('', 'Контакты')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .contacts
+            .container
+                .row
+                    .col-xs-12.col-sm-6.hidden-xs
+                        .contacts__cnt
+                            p Россия,353860, Краснодарский край,
+                            p г.Приморско-Ахтарск, ул Железнодорожная,38
+                            p факс: 8 861 433-09-58
+                            p отдел продаж +7 918 980-99-44
+                            p e-mail: 
+                                a(href="mailto:molzavod.tvorogov@mail.ru") molzavod.tvorogov@mail.ru
+                    .col-xs-12.col-sm-6.col-lg-5.col-lg-offset-1
+                        h2 Обратная связь
+                        form#contactsForm.brand-form.partners__form(action="#", method="post", novaldate)
+                            .brand-form__item
+                                .brand-input
+                                    input#clientName(name="clientName", data-parsley-required)
+                                    label(for="clientName") Ваше имя/компания
+                            .brand-form__item
+                                .brand-input
+                                    input#clientPhone(name="clientPhone", data-parsley-required)
+                                    label(for="clientPhone") Ваши нонтакты
+                            .brand-form__item
+                                .brand-textarea
+                                    textarea#clientInfo(name="clientInfo", rows="6")
+                                    label(for="clientInfo") Оставьте ваше сообщение                            
+                            .brand-form__item
+                                button.brand-button.contacts__submit(type="submit") Отправить заявку
+            .contacts__map
+                #map
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+

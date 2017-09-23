@@ -6,46 +6,62 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      #hideAll{
+          position: fixed;
+          background: #fff;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 10;
+      }
+    </style>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
   <link href="./css/common.css" rel="stylesheet"><link href="./css/partners.css" rel="stylesheet"></head>
   <body>
-        <header class="p-header">
-          <div class="p-header__wrapper">
-            <div class="p-header__bg"></div>
-            <div class="container">
-              <div class="row">   
-                <div class="col-lg-12">
-                  <div class="p-header__item">
-                    <div class="logo"></div>
-                  </div>
-                  <div class="p-header__holder">
-                    <div class="p-header__item hidden-sm hidden-xs hidden-md">
-                      <ul class="menu p-header__menu">
-                        <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
-                        <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-                      </ul>
-                    </div>
-                    <div class="p-header__item hidden-xs">
-                      <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
-                    </div>
-                    <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
-                    <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="p-header__title">
-                    <p class="p-header__title_ligth"></p>
-                    <p>Партнерам<br> и дистрибьюторам</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div id="hideAll"></div>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="partners.js"></script></body>
+</html>
+<header class="p-header">
+  <div class="p-header__wrapper">
+    <div class="p-header__bg"></div>
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-12">
+          <div class="p-header__item">
+            <div class="logo"></div>
           </div>
-        </header>
+          <div class="p-header__holder">
+            <div class="p-header__item hidden-sm hidden-xs hidden-md">
+              <ul class="menu p-header__menu">
+                <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
+                <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="p-header__item hidden-xs">
+              <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
+            </div>
+            <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
+            <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-header__title">
+            <p class="p-header__title_ligth"></p>
+            <p>Партнерам<br> и дистрибьюторам</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <nav class="mobile-menu" data-mobile-menu>
   <div class="mobile-menu__bg"></div>
   <div class="container-fluid">
@@ -66,71 +82,71 @@
   </div>
   <div class="mobile-menu__close" data-close-menu><img src="assets/images/close.svg" width="30">закрыть</div>
 </nav>
-    <main class="index">
-      <section class="p-section">
-        <div class="container">
-          <div class="partners">
+<main class="index">
+  <section class="p-section">
+    <div class="container">
+      <div class="partners">
+        <div class="row">
+          <div class="col-sm-5 col-lg-6">
+            <h2> Приглашаем к сотрудничеству партнеров по</h2>
+            <ul>
+              <li>Масложировой продукции</li>
+              <li>Майонезной продукции</li>
+              <li>Мясо-колбасной продукции</li>
+              <li>Овощной и рыбной консервации </li>
+            </ul>
+          </div>
+          <div class="col-sm-5 col-sm-offset-1 col-lg-6 col-lg-offset-0"><img class="img-responsive partners__image" src="assets/images/trucks.png"></div>
+          <div class="col-xs-12">
+            <h2>Оставте заявку или свяжитесь с нами любым удобным способом</h2>
             <div class="row">
-              <div class="col-sm-5 col-lg-6">
-                <h2> Приглашаем к сотрудничеству партнеров по</h2>
-                <ul>
-                  <li>Масложировой продукции</li>
-                  <li>Майонезной продукции</li>
-                  <li>Мясо-колбасной продукции</li>
-                  <li>Овощной и рыбной консервации </li>
-                </ul>
-              </div>
-              <div class="col-sm-5 col-sm-offset-1 col-lg-6 col-lg-offset-0"><img class="img-responsive partners__image" src="assets/images/trucks.png"></div>
-              <div class="col-xs-12">
-                <h2>Оставте заявку или свяжитесь с нами любым удобным способом</h2>
-                <div class="row">
-                  <div class="col-sm-6 col-lg-6">
-                    <form class="brand-form partners__form" id="partnersForm" action="#" method="post" novaldate>
-                      <div class="brand-form__item">
-                        <div class="brand-input">
-                          <input id="clientName" name="clientName" data-parsley-required>
-                          <label for="clientName">Ваше имя/компания</label>
-                        </div>
-                      </div>
-                      <div class="brand-form__item">
-                        <div class="brand-input">
-                          <input id="clientPhone" name="clientPhone" data-parsley-required>
-                          <label for="clientPhone">Ваши нонтакты</label>
-                        </div>
-                      </div>
-                      <div class="brand-form__item">
-                        <div class="brand-input">
-                          <input id="clientCity" name="clientCity" data-parsley-required>
-                          <label for="clientCity">Ваш город</label>
-                        </div>
-                      </div>
-                      <div class="brand-form__item">
-                        <div class="brand-textarea">
-                          <textarea id="clientInfo" name="clientInfo" rows="6"></textarea>
-                          <label for="clientInfo">Дополнительная информация</label>
-                        </div>
-                      </div>
-                      <div class="brand-form__item">
-                        <button class="brand-button partners__submit" type="submit">Отправить заявку</button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="col-sm-6 col-lg-5 col-lg-offset-1 hidden-xs">
-                    <div class="partners__contacts">
-                      <p>Россия,353860, Краснодарский край,</p>
-                      <p>г.Приморско-Ахтарск, ул Железнодорожная,38</p>
-                      <p>факс: 8 861 433-09-58</p>
-                      <p>отдел продаж +7 918 980-99-44</p>
-                      <p>e-mail: <a href="mailto:molzavod.tvorogov@mail.ru">molzavod.tvorogov@mail.ru</a></p>
+              <div class="col-sm-6 col-lg-6">
+                <form class="brand-form partners__form" id="partnersForm" action="#" method="post" novaldate>
+                  <div class="brand-form__item">
+                    <div class="brand-input">
+                      <input id="clientName" name="clientName" data-parsley-required>
+                      <label for="clientName">Ваше имя/компания</label>
                     </div>
                   </div>
+                  <div class="brand-form__item">
+                    <div class="brand-input">
+                      <input id="clientPhone" name="clientPhone" data-parsley-required>
+                      <label for="clientPhone">Ваши нонтакты</label>
+                    </div>
+                  </div>
+                  <div class="brand-form__item">
+                    <div class="brand-input">
+                      <input id="clientCity" name="clientCity" data-parsley-required>
+                      <label for="clientCity">Ваш город</label>
+                    </div>
+                  </div>
+                  <div class="brand-form__item">
+                    <div class="brand-textarea">
+                      <textarea id="clientInfo" name="clientInfo" rows="6"></textarea>
+                      <label for="clientInfo">Дополнительная информация</label>
+                    </div>
+                  </div>
+                  <div class="brand-form__item">
+                    <button class="brand-button partners__submit" type="submit">Отправить заявку</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-6 col-lg-5 col-lg-offset-1 hidden-xs">
+                <div class="partners__contacts">
+                  <p>Россия,353860, Краснодарский край,</p>
+                  <p>г.Приморско-Ахтарск, ул Железнодорожная,38</p>
+                  <p>факс: 8 861 433-09-58</p>
+                  <p>отдел продаж +7 918 980-99-44</p>
+                  <p>e-mail: <a href="mailto:molzavod.tvorogov@mail.ru">molzavod.tvorogov@mail.ru</a></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="p-footer">
   <div class="container">
     <div class="row">   
@@ -189,5 +205,3 @@
     </div>
   </form>
 </div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="partners.js"></script></body>
-</html>

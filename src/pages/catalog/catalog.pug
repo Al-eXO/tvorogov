@@ -1,52 +1,44 @@
-doctype html
-html
-    head
-        meta(charset="UTF-8")
-        title Каталог продукции
-        meta(name="description", content="")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
-    body
-        include ../templates/header
-        +header('', 'Каталог продукции')
-        
-        include ../templates/mobile-menu
+include ../templates/head
+include ../templates/header
++header('', 'Каталог продукции')
 
-        main.index
-            
-            section.p-section
-                .container
-                    .quick-catalog.index__quick-catalog
-                        .row
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-milk-bg.jpg") + "')")
-                                    .quick-catalog__caption Молоко
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item.quick-catalog__item_style_blue(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-cream-bg.jpg") + "')")
-                                    .quick-catalog__caption Сметана
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item.quick-catalog__item_style_gold(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-ice-cream-bg.jpg") + "')")
-                                    .quick-catalog__caption Мороженое
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item.quick-catalog__item_style_dark(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-butter-bg.jpg") + "')")
-                                    .quick-catalog__caption Масло
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item.quick-catalog__item_style_dark(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-cottage-cheese-bg.jpg") + "')")
-                                    .quick-catalog__caption Творог
-                            .col-sm-6.col-md-4
-                                a.quick-catalog__item.quick-catalog__item_size_small.quick-catalog__item_style_dark(href="catalog-category.html") 
-                                    .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-milk-production-bg.jpg") + "')")
-                                    .quick-catalog__caption
-                                        span Кисломолочная 
-                                        | продукция
+include ../templates/mobile-menu
 
-        include ../templates/footer 
-        include ../templates/recall-form
-        include ../templates/search-box
+main.index
+    
+    section.p-section
+        .container
+            .quick-catalog.index__quick-catalog
+                .row
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-milk-bg.jpg") + "')")
+                            .quick-catalog__caption Молоко
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item.quick-catalog__item_style_blue(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-cream-bg.jpg") + "')")
+                            .quick-catalog__caption Сметана
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item.quick-catalog__item_style_gold(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-ice-cream-bg.jpg") + "')")
+                            .quick-catalog__caption Мороженое
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item.quick-catalog__item_style_dark(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-butter-bg.jpg") + "')")
+                            .quick-catalog__caption Масло
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item.quick-catalog__item_style_dark(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-cottage-cheese-bg.jpg") + "')")
+                            .quick-catalog__caption Творог
+                    .col-sm-6.col-md-4
+                        a.quick-catalog__item.quick-catalog__item_size_small.quick-catalog__item_style_dark(href="catalog-category.html") 
+                            .quick-catalog__bg(style="background-image: url('" + require("../../assets/img/products-sour-milk-production-bg.jpg") + "')")
+                            .quick-catalog__caption
+                                span Кисломолочная 
+                                | продукция
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
 
 

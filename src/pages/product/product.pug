@@ -1,63 +1,55 @@
-doctype html
-html
-    head
-        meta(charset="UTF-8")
-        title Каталог продукции
-        meta(name="description", content="")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
-    body
-        include ../templates/header
-        - a = [ { "caption": "Каталог продукции", "link": "/catalog.html"}, { "caption": "Молоко", "link": "/catalog-category.html"} ]
-        +header('', 'Молоко 2,5%, 0,9л', a)
-        
-        include ../templates/mobile-menu
+include ../templates/head
+include ../templates/header
+- a = [ { "caption": "Каталог продукции", "link": "/catalog.html"}, { "caption": "Молоко", "link": "/catalog-category.html"} ]
++header('', 'Молоко 2,5%, 0,9л', a)
 
-        main.index
-            
-            section.p-section
-                .container
-                    .product
-                        .row
-                            .col-xs-12.col-sm-4
-                                img.img-responsive.product__photo(src=require("../../assets/img/product-detail-milk.png"))
-                            .col-xs-12.col-sm-8
-                                .product__title Молоко 2,5%, 0,9л
-                                .product__description
-                                    p Пример заполнения страницы:
-                                    p Основным направлением деятельности компании является изготовление и реализация … 
-                                    p (Укажите направление деятельности Вашей компании).
-                                    p Продукция компании «...» (Введите название компании) находит обширное применение в сфере … (Укажите сферу деятельности).
+include ../templates/mobile-menu
 
-                                .product__props.props
-                                    .props__item 
-                                        .props__caption Массовая доля жира: 
-                                        .props__value 2,5%
-                                    .props__item 
-                                        .props__caption Объем: 
-                                        .props__value 1000 мл
-                                    .props__item 
-                                        .props__caption Состав: 
-                                        .props__value молоко цельное, молоко обезжиренное
-                                    .props__item 
-                                        .props__caption Пищевая ценность на 100 г: 
-                                        .props__value белки – 3 г, жиры – 2,5 г, углеводы – 4,7 г.
-                                    .props__item 
-                                        .props__caption Энерг. ценность на 100 г: 
-                                        .props__value 223 кДж/53 ккал
-                                    .props__item 
-                                        .props__caption Условия хранения: 
-                                        .props__value хранить при температуре от +2 до +6°С
-                                    .props__item 
-                                        .props__caption Срок годности: 
-                                        .props__value 5 суток
-                                    .props__item 
-                                        .props__caption ГОСТ 31450-2013
-                                .product__action
-                                    a.brand-button.brand-button_inverse(href="#") Партнерам и дистрибьюторам
+main.index
+    
+    section.p-section
+        .container
+            .product
+                .row
+                    .col-xs-12.col-sm-4
+                        img.img-responsive.product__photo(src=require("../../assets/img/product-detail-milk.png"))
+                    .col-xs-12.col-sm-8
+                        .product__title Молоко 2,5%, 0,9л
+                        .product__description
+                            p Пример заполнения страницы:
+                            p Основным направлением деятельности компании является изготовление и реализация … 
+                            p (Укажите направление деятельности Вашей компании).
+                            p Продукция компании «...» (Введите название компании) находит обширное применение в сфере … (Укажите сферу деятельности).
 
-        include ../templates/footer 
-        include ../templates/recall-form
-        include ../templates/search-box
+                        .product__props.props
+                            .props__item 
+                                .props__caption Массовая доля жира: 
+                                .props__value 2,5%
+                            .props__item 
+                                .props__caption Объем: 
+                                .props__value 1000 мл
+                            .props__item 
+                                .props__caption Состав: 
+                                .props__value молоко цельное, молоко обезжиренное
+                            .props__item 
+                                .props__caption Пищевая ценность на 100 г: 
+                                .props__value белки – 3 г, жиры – 2,5 г, углеводы – 4,7 г.
+                            .props__item 
+                                .props__caption Энерг. ценность на 100 г: 
+                                .props__value 223 кДж/53 ккал
+                            .props__item 
+                                .props__caption Условия хранения: 
+                                .props__value хранить при температуре от +2 до +6°С
+                            .props__item 
+                                .props__caption Срок годности: 
+                                .props__value 5 суток
+                            .props__item 
+                                .props__caption ГОСТ 31450-2013
+                        .product__action
+                            a.brand-button.brand-button_inverse(href="#") Партнерам и дистрибьюторам
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
 
 

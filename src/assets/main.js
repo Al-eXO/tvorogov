@@ -96,4 +96,5 @@ export default class mainScripts{
 window.onload = function(){
     var pageScripts = new mainScripts();
     $('[data-mobile-menu]').addClass('loaded');
+    $('#hideAll').fadeOut("slow");
 }

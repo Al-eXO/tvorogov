@@ -1,4 +1,4 @@
-webpackJsonp([3],{
+webpackJsonp([4],{
 
 /***/ 25:
 /***/ (function(module, exports, __webpack_require__) {
@@ -2528,17 +2528,17 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 61:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__partners_styl__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__partners_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__partners_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__partners_pug__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__partners_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__partners_pug__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contacts_styl__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contacts_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__contacts_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_pug__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__contacts_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_parsleyjs__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_parsleyjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_parsleyjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_main_js__ = __webpack_require__(10);
@@ -2548,27 +2548,50 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+
 $(function(){
-    $('#partnersForm').parsley().on('field:validated', function() {
+    var map, placemark;
+    
+    function initMap(){
+        map = new ymaps.Map("map", {
+            center: [46.0450285,38.1715999],
+            zoom: 16,
+            controls: []
+        });
+        placemark = new ymaps.Placemark([46.045028, 38.173796], { 
+            hintContent: 'Твороговъ', 
+            balloonContent: 'АО "Приморско-Ахтарский молочный завод" Твороговъ' 
+        });
+
+        map.geoObjects.add(placemark);
+        map.behaviors.disable('scrollZoom')
+    }
+
+    ymaps.ready(initMap);
+    
+
+    $('#contactsForm').parsley().on('field:validated', function() {
         if (this.validationResult === true) {
           this.$element.parent().removeClass('error');
         } else {
           this.$element.parent().addClass('error');
         }
       });
+
 });
+
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
 
-/***/ 62:
+/***/ 66:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 63:
+/***/ 67:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -2689,18 +2712,11 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fheader\u003E";
 };
 pug_indent.push('');
-pug_mixins["header"]('', 'Партнерам<br> и дистрибьюторам');
+pug_mixins["header"]('', 'Контакты');
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"partners\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-5 col-lg-6\"\u003E\n            \u003Ch2\u003E Приглашаем к сотрудничеству партнеров по\u003C\u002Fh2\u003E\n            \u003Cul\u003E\n              \u003Cli\u003EМасложировой продукции\u003C\u002Fli\u003E\n              \u003Cli\u003EМайонезной продукции\u003C\u002Fli\u003E\n              \u003Cli\u003EМясо-колбасной продукции\u003C\u002Fli\u003E\n              \u003Cli\u003EОвощной и рыбной консервации \u003C\u002Fli\u003E\n            \u003C\u002Ful\u003E\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-5 col-sm-offset-1 col-lg-6 col-lg-offset-0\"\u003E\u003Cimg" + (" class=\"img-responsive partners__image\""+pug.attr("src", __webpack_require__(64), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-xs-12\"\u003E\n            \u003Ch2\u003EОставте заявку или свяжитесь с нами любым удобным способом\u003C\u002Fh2\u003E\n            \u003Cdiv class=\"row\"\u003E\n              \u003Cdiv class=\"col-sm-6 col-lg-6\"\u003E\n                \u003Cform class=\"brand-form partners__form\" id=\"partnersForm\" action=\"#\" method=\"post\" novaldate\u003E\n                  \u003Cdiv class=\"brand-form__item\"\u003E\n                    \u003Cdiv class=\"brand-input\"\u003E\n                      \u003Cinput id=\"clientName\" name=\"clientName\" data-parsley-required\u003E\n                      \u003Clabel for=\"clientName\"\u003EВаше имя\u002Fкомпания\u003C\u002Flabel\u003E\n                    \u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"brand-form__item\"\u003E\n                    \u003Cdiv class=\"brand-input\"\u003E\n                      \u003Cinput id=\"clientPhone\" name=\"clientPhone\" data-parsley-required\u003E\n                      \u003Clabel for=\"clientPhone\"\u003EВаши нонтакты\u003C\u002Flabel\u003E\n                    \u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"brand-form__item\"\u003E\n                    \u003Cdiv class=\"brand-input\"\u003E\n                      \u003Cinput id=\"clientCity\" name=\"clientCity\" data-parsley-required\u003E\n                      \u003Clabel for=\"clientCity\"\u003EВаш город\u003C\u002Flabel\u003E\n                    \u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"brand-form__item\"\u003E\n                    \u003Cdiv class=\"brand-textarea\"\u003E\n                      \u003Ctextarea id=\"clientInfo\" name=\"clientInfo\" rows=\"6\"\u003E\u003C\u002Ftextarea\u003E\n                      \u003Clabel for=\"clientInfo\"\u003EДополнительная информация\u003C\u002Flabel\u003E\n                    \u003C\u002Fdiv\u003E\n                  \u003C\u002Fdiv\u003E\n                  \u003Cdiv class=\"brand-form__item\"\u003E\n                    \u003Cbutton class=\"brand-button partners__submit\" type=\"submit\"\u003EОтправить заявку\u003C\u002Fbutton\u003E\n                  \u003C\u002Fdiv\u003E\n                \u003C\u002Fform\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"col-sm-6 col-lg-5 col-lg-offset-1 hidden-xs\"\u003E\n                \u003Cdiv class=\"partners__contacts\"\u003E\n                  \u003Cp\u003EРоссия,353860, Краснодарский край,\u003C\u002Fp\u003E\n                  \u003Cp\u003Eг.Приморско-Ахтарск, ул Железнодорожная,38\u003C\u002Fp\u003E\n                  \u003Cp\u003Eфакс: 8 861 433-09-58\u003C\u002Fp\u003E\n                  \u003Cp\u003Eотдел продаж +7 918 980-99-44\u003C\u002Fp\u003E\n                  \u003Cp\u003Ee-mail: \u003Ca href=\"mailto:molzavod.tvorogov@mail.ru\"\u003Emolzavod.tvorogov@mail.ru\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(9).call(this, locals)) ? "" : pug_interp));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"contacts\"\u003E\n      \u003Cdiv class=\"container\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-xs-12 col-sm-6 hidden-xs\"\u003E\n            \u003Cdiv class=\"contacts__cnt\"\u003E\n              \u003Cp\u003EРоссия,353860, Краснодарский край,\u003C\u002Fp\u003E\n              \u003Cp\u003Eг.Приморско-Ахтарск, ул Железнодорожная,38\u003C\u002Fp\u003E\n              \u003Cp\u003Eфакс: 8 861 433-09-58\u003C\u002Fp\u003E\n              \u003Cp\u003Eотдел продаж +7 918 980-99-44\u003C\u002Fp\u003E\n              \u003Cp\u003Ee-mail: \u003Ca href=\"mailto:molzavod.tvorogov@mail.ru\"\u003Emolzavod.tvorogov@mail.ru\u003C\u002Fa\u003E\u003C\u002Fp\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1\"\u003E\n            \u003Ch2\u003EОбратная связь\u003C\u002Fh2\u003E\n            \u003Cform class=\"brand-form partners__form\" id=\"contactsForm\" action=\"#\" method=\"post\" novaldate\u003E\n              \u003Cdiv class=\"brand-form__item\"\u003E\n                \u003Cdiv class=\"brand-input\"\u003E\n                  \u003Cinput id=\"clientName\" name=\"clientName\" data-parsley-required\u003E\n                  \u003Clabel for=\"clientName\"\u003EВаше имя\u002Fкомпания\u003C\u002Flabel\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"brand-form__item\"\u003E\n                \u003Cdiv class=\"brand-input\"\u003E\n                  \u003Cinput id=\"clientPhone\" name=\"clientPhone\" data-parsley-required\u003E\n                  \u003Clabel for=\"clientPhone\"\u003EВаши нонтакты\u003C\u002Flabel\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"brand-form__item\"\u003E\n                \u003Cdiv class=\"brand-textarea\"\u003E\n                  \u003Ctextarea id=\"clientInfo\" name=\"clientInfo\" rows=\"6\"\u003E\u003C\u002Ftextarea\u003E\n                  \u003Clabel for=\"clientInfo\"\u003EОставьте ваше сообщение                            \u003C\u002Flabel\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"brand-form__item\"\u003E\n                \u003Cbutton class=\"brand-button contacts__submit\" type=\"submit\"\u003EОтправить заявку\u003C\u002Fbutton\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fform\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"contacts__map\"\u003E\n        \u003Cdiv id=\"map\"\u003E\u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(9).call(this, locals)) ? "" : pug_interp));;return pug_html;};
 module.exports = template;
-
-/***/ }),
-
-/***/ 64:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/images/trucks.png";
 
 /***/ })
 
-},[61]);
+},[65]);

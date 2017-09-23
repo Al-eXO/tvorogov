@@ -19,10 +19,10 @@
       }
     </style>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-  <link href="./css/common.css" rel="stylesheet"><link href="./css/catalog.css" rel="stylesheet"></head>
+  <link href="./css/common.css" rel="stylesheet"><link href="./css/contacts.css" rel="stylesheet"></head>
   <body>
     <div id="hideAll"></div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="catalog.js"></script></body>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="contacts.js"></script></body>
 </html>
 <header class="p-header">
   <div class="p-header__wrapper">
@@ -55,7 +55,7 @@
         <div class="col-lg-12">
           <div class="p-header__title">
             <p class="p-header__title_ligth"></p>
-            <p>Каталог продукции</p>
+            <p>Контакты</p>
           </div>
         </div>
       </div>
@@ -84,28 +84,48 @@
 </nav>
 <main class="index">
   <section class="p-section">
-    <div class="container">
-      <div class="quick-catalog index__quick-catalog">
+    <div class="contacts">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-milk-bg.jpg');"></div>
-              <div class="quick-catalog__caption">Молоко</div></a></div>
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_blue" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-cream-bg.jpg');"></div>
-              <div class="quick-catalog__caption">Сметана</div></a></div>
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_gold" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-ice-cream-bg.jpg');"></div>
-              <div class="quick-catalog__caption">Мороженое</div></a></div>
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-butter-bg.jpg');"></div>
-              <div class="quick-catalog__caption">Масло</div></a></div>
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-cottage-cheese-bg.jpg');"></div>
-              <div class="quick-catalog__caption">Творог</div></a></div>
-          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark" href="catalog-category.html"> 
-              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-milk-production-bg.jpg');"></div>
-              <div class="quick-catalog__caption"><span>Кисломолочная </span>продукция</div></a></div>
+          <div class="col-xs-12 col-sm-6 hidden-xs">
+            <div class="contacts__cnt">
+              <p>Россия,353860, Краснодарский край,</p>
+              <p>г.Приморско-Ахтарск, ул Железнодорожная,38</p>
+              <p>факс: 8 861 433-09-58</p>
+              <p>отдел продаж +7 918 980-99-44</p>
+              <p>e-mail: <a href="mailto:molzavod.tvorogov@mail.ru">molzavod.tvorogov@mail.ru</a></p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1">
+            <h2>Обратная связь</h2>
+            <form class="brand-form partners__form" id="contactsForm" action="#" method="post" novaldate>
+              <div class="brand-form__item">
+                <div class="brand-input">
+                  <input id="clientName" name="clientName" data-parsley-required>
+                  <label for="clientName">Ваше имя/компания</label>
+                </div>
+              </div>
+              <div class="brand-form__item">
+                <div class="brand-input">
+                  <input id="clientPhone" name="clientPhone" data-parsley-required>
+                  <label for="clientPhone">Ваши нонтакты</label>
+                </div>
+              </div>
+              <div class="brand-form__item">
+                <div class="brand-textarea">
+                  <textarea id="clientInfo" name="clientInfo" rows="6"></textarea>
+                  <label for="clientInfo">Оставьте ваше сообщение                            </label>
+                </div>
+              </div>
+              <div class="brand-form__item">
+                <button class="brand-button contacts__submit" type="submit">Отправить заявку</button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
+      <div class="contacts__map">
+        <div id="map"></div>
       </div>
     </div>
   </section>

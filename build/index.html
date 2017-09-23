@@ -2,50 +2,66 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>АО "Приморско-Ахтарский молочный завод" ТМ «ТВОРОГОВЪ»</title>
+    <title>Каталог продукции</title>
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      #hideAll{
+          position: fixed;
+          background: #fff;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 10;
+      }
+    </style>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
   <link href="./css/common.css" rel="stylesheet"><link href="./css/index.css" rel="stylesheet"></head>
   <body>
-        <header class="p-header">
-          <div class="p-header__wrapper">
-            <div class="p-header__bg"></div>
-            <div class="container">
-              <div class="row">   
-                <div class="col-lg-12">
-                  <div class="p-header__item">
-                    <div class="logo"></div>
-                  </div>
-                  <div class="p-header__holder">
-                    <div class="p-header__item hidden-sm hidden-xs hidden-md">
-                      <ul class="menu p-header__menu">
-                        <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
-                        <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-                      </ul>
-                    </div>
-                    <div class="p-header__item hidden-xs">
-                      <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
-                    </div>
-                    <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
-                    <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="p-header__title">
-                    <p class="p-header__title_ligth">АО &quot;Приморско-Ахтарский молочный завод&quot;</p>
-                    <p>ТМ «ТВОРОГОВЪ»</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div id="hideAll"></div>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="index.js"></script></body>
+</html>
+<header class="p-header">
+  <div class="p-header__wrapper">
+    <div class="p-header__bg"></div>
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-12">
+          <div class="p-header__item">
+            <div class="logo"></div>
           </div>
-        </header>
+          <div class="p-header__holder">
+            <div class="p-header__item hidden-sm hidden-xs hidden-md">
+              <ul class="menu p-header__menu">
+                <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
+                <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="p-header__item hidden-xs">
+              <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
+            </div>
+            <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
+            <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-header__title">
+            <p class="p-header__title_ligth">АО &quot;Приморско-Ахтарский молочный завод&quot;</p>
+            <p>ТМ «ТВОРОГОВЪ»</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <nav class="mobile-menu" data-mobile-menu>
   <div class="mobile-menu__bg"></div>
   <div class="container-fluid">
@@ -66,52 +82,52 @@
   </div>
   <div class="mobile-menu__close" data-close-menu><img src="assets/images/close.svg" width="30">закрыть</div>
 </nav>
-    <main class="index">
-      <section class="p-section">
-        <div class="container">
-          <div class="quick-menu index__quick-menu">
-            <div class="row">
-              <div class="col-sm-4"><a class="quick-menu__item" href="#">
-                  <div class="quick-menu__bg" style="background-image: url('assets/images/about-bg.jpg');"></div>
-                  <div class="quick-menu__caption"><span>О нашей<strong>Компании</strong></span></div></a></div>
-              <div class="col-sm-4"><a class="quick-menu__item quick-menu__item_style_white" href="#">
-                  <div class="quick-menu__bg" style="background-image: url('assets/images/catalog-bg.jpg');"></div>
-                  <div class="quick-menu__caption"><span>Каталог<strong>Продукции</strong></span></div></a></div>
-              <div class="col-sm-4"><a class="quick-menu__item quick-menu__item_style_green" href="#">
-                  <div class="quick-menu__bg" style="background-image: url('assets/images/partners-bg.jpg');"></div>
-                  <div class="quick-menu__caption"><span>Партнерам и <strong>Дистрибьюторам</strong></span></div></a></div>
-            </div>
-          </div>
+<main class="index">
+  <section class="p-section">
+    <div class="container">
+      <div class="quick-menu index__quick-menu">
+        <div class="row">
+          <div class="col-sm-4"><a class="quick-menu__item" href="#">
+              <div class="quick-menu__bg" style="background-image: url('assets/images/about-bg.jpg');"></div>
+              <div class="quick-menu__caption"><span>О нашей<strong>Компании</strong></span></div></a></div>
+          <div class="col-sm-4"><a class="quick-menu__item quick-menu__item_style_white" href="#">
+              <div class="quick-menu__bg" style="background-image: url('assets/images/catalog-bg.jpg');"></div>
+              <div class="quick-menu__caption"><span>Каталог<strong>Продукции</strong></span></div></a></div>
+          <div class="col-sm-4"><a class="quick-menu__item quick-menu__item_style_green" href="#">
+              <div class="quick-menu__bg" style="background-image: url('assets/images/partners-bg.jpg');"></div>
+              <div class="quick-menu__caption"><span>Партнерам и <strong>Дистрибьюторам</strong></span></div></a></div>
         </div>
-      </section>
-      <section class="p-section">
-        <div class="container">
-          <h1 class="p-section__title title title_h1">Наша продукция</h1>
-          <div class="quick-catalog index__quick-catalog">
-            <div class="row">
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-milk-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Молоко</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_blue" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Сметана</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_gold" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-ice-cream-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Мороженое</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-butter-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Масло</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-cottage-cheese-bg.jpg');"></div>
-                  <div class="quick-catalog__caption">Творог</div></a></div>
-              <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark" href="#"> 
-                  <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-milk-production-bg.jpg');"></div>
-                  <div class="quick-catalog__caption"><span>Кисломолочная </span>продукция</div></a></div>
-            </div>
-          </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-section">
+    <div class="container">
+      <h1 class="p-section__title title title_h1">Наша продукция</h1>
+      <div class="quick-catalog index__quick-catalog">
+        <div class="row">
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-milk-bg.jpg');"></div>
+              <div class="quick-catalog__caption">Молоко</div></a></div>
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_blue" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-cream-bg.jpg');"></div>
+              <div class="quick-catalog__caption">Сметана</div></a></div>
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_gold" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-ice-cream-bg.jpg');"></div>
+              <div class="quick-catalog__caption">Мороженое</div></a></div>
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-butter-bg.jpg');"></div>
+              <div class="quick-catalog__caption">Масло</div></a></div>
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_style_dark" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-cottage-cheese-bg.jpg');"></div>
+              <div class="quick-catalog__caption">Творог</div></a></div>
+          <div class="col-sm-6 col-md-4"><a class="quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark" href="#"> 
+              <div class="quick-catalog__bg" style="background-image: url('assets/images/products-sour-milk-production-bg.jpg');"></div>
+              <div class="quick-catalog__caption"><span>Кисломолочная </span>продукция</div></a></div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="p-footer">
   <div class="container">
     <div class="row">   
@@ -170,5 +186,3 @@
     </div>
   </form>
 </div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="index.js"></script></body>
-</html>

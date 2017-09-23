@@ -6,50 +6,66 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      #hideAll{
+          position: fixed;
+          background: #fff;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 10;
+      }
+    </style>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
   <link href="./css/common.css" rel="stylesheet"><link href="./css/product.css" rel="stylesheet"></head>
   <body>
-        <header class="p-header">
-          <div class="p-header__wrapper">
-            <div class="p-header__bg"></div>
-            <div class="container">
-              <div class="row">   
-                <div class="col-lg-12">
-                  <div class="p-header__item">
-                    <div class="logo"></div>
-                  </div>
-                  <div class="p-header__holder">
-                    <div class="p-header__item hidden-sm hidden-xs hidden-md">
-                      <ul class="menu p-header__menu">
-                        <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
-                        <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-                      </ul>
-                    </div>
-                    <div class="p-header__item hidden-xs">
-                      <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
-                    </div>
-                    <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
-                    <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="p-header__title">
-                    <ul class="breadcrumbs">
-                      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog.html">Каталог продукции</a></li>
-                      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog-category.html">Молоко</a></li>
-                    </ul>
-                    <p class="p-header__title_ligth"></p>
-                    <p>Молоко 2,5%, 0,9л</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div id="hideAll"></div>
+  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="product.js"></script></body>
+</html>
+<header class="p-header">
+  <div class="p-header__wrapper">
+    <div class="p-header__bg"></div>
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-12">
+          <div class="p-header__item">
+            <div class="logo"></div>
           </div>
-        </header>
+          <div class="p-header__holder">
+            <div class="p-header__item hidden-sm hidden-xs hidden-md">
+              <ul class="menu p-header__menu">
+                <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
+                <li class="menu__item"><a class="menu__link" href="catalog.html">Продукция</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Партнерам и дистрибьюторам</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="p-header__item hidden-xs">
+              <div class="p-header__contacts"><a class="p-header__phone" href="tel: 89189809944">9 918 980-99-44</a><a class="p-header__call popup-link" href="#recall-popup">Перезвоните мне</a><a class="p-header__email" href="mailto:p-a_molzavod@mail.ru">p-a_molzavod@mail.ru</a></div>
+            </div>
+            <div class="p-header__item"><a class="p-header__search p-header__icon" href="#" data-start-search><img src="assets/images/search.png"></a></div>
+            <div class="p-header__item hidden-lg"><a class="p-header__burger p-header__icon" href="#" data-open-menu><img src="assets/images/menu.svg"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="p-header__title">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog.html">Каталог продукции</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/catalog-category.html">Молоко</a></li>
+            </ul>
+            <p class="p-header__title_ligth"></p>
+            <p>Молоко 2,5%, 0,9л</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 <nav class="mobile-menu" data-mobile-menu>
   <div class="mobile-menu__bg"></div>
   <div class="container-fluid">
@@ -70,60 +86,60 @@
   </div>
   <div class="mobile-menu__close" data-close-menu><img src="assets/images/close.svg" width="30">закрыть</div>
 </nav>
-    <main class="index">
-      <section class="p-section">
-        <div class="container">
-          <div class="product">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4"><img class="img-responsive product__photo" src="assets/images/product-detail-milk.png"></div>
-              <div class="col-xs-12 col-sm-8">
-                <div class="product__title">Молоко 2,5%, 0,9л</div>
-                <div class="product__description">
-                  <p>Пример заполнения страницы:</p>
-                  <p>Основным направлением деятельности компании является изготовление и реализация … </p>
-                  <p>(Укажите направление деятельности Вашей компании).</p>
-                  <p>Продукция компании «...» (Введите название компании) находит обширное применение в сфере … (Укажите сферу деятельности).</p>
-                </div>
-                <div class="product__props props">
-                  <div class="props__item"> 
-                    <div class="props__caption">Массовая доля жира: </div>
-                    <div class="props__value">2,5%</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Объем: </div>
-                    <div class="props__value">1000 мл</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Состав: </div>
-                    <div class="props__value">молоко цельное, молоко обезжиренное</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Пищевая ценность на 100 г: </div>
-                    <div class="props__value">белки – 3 г, жиры – 2,5 г, углеводы – 4,7 г.</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Энерг. ценность на 100 г: </div>
-                    <div class="props__value">223 кДж/53 ккал</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Условия хранения: </div>
-                    <div class="props__value">хранить при температуре от +2 до +6°С</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">Срок годности: </div>
-                    <div class="props__value">5 суток</div>
-                  </div>
-                  <div class="props__item"> 
-                    <div class="props__caption">ГОСТ 31450-2013</div>
-                  </div>
-                </div>
-                <div class="product__action"><a class="brand-button brand-button_inverse" href="#">Партнерам и дистрибьюторам</a></div>
+<main class="index">
+  <section class="p-section">
+    <div class="container">
+      <div class="product">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4"><img class="img-responsive product__photo" src="assets/images/product-detail-milk.png"></div>
+          <div class="col-xs-12 col-sm-8">
+            <div class="product__title">Молоко 2,5%, 0,9л</div>
+            <div class="product__description">
+              <p>Пример заполнения страницы:</p>
+              <p>Основным направлением деятельности компании является изготовление и реализация … </p>
+              <p>(Укажите направление деятельности Вашей компании).</p>
+              <p>Продукция компании «...» (Введите название компании) находит обширное применение в сфере … (Укажите сферу деятельности).</p>
+            </div>
+            <div class="product__props props">
+              <div class="props__item"> 
+                <div class="props__caption">Массовая доля жира: </div>
+                <div class="props__value">2,5%</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Объем: </div>
+                <div class="props__value">1000 мл</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Состав: </div>
+                <div class="props__value">молоко цельное, молоко обезжиренное</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Пищевая ценность на 100 г: </div>
+                <div class="props__value">белки – 3 г, жиры – 2,5 г, углеводы – 4,7 г.</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Энерг. ценность на 100 г: </div>
+                <div class="props__value">223 кДж/53 ккал</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Условия хранения: </div>
+                <div class="props__value">хранить при температуре от +2 до +6°С</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">Срок годности: </div>
+                <div class="props__value">5 суток</div>
+              </div>
+              <div class="props__item"> 
+                <div class="props__caption">ГОСТ 31450-2013</div>
               </div>
             </div>
+            <div class="product__action"><a class="brand-button brand-button_inverse" href="#">Партнерам и дистрибьюторам</a></div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="p-footer">
   <div class="container">
     <div class="row">   
@@ -182,5 +198,3 @@
     </div>
   </form>
 </div>
-  <script type="text/javascript" src="common.js"></script><script type="text/javascript" src="product.js"></script></body>
-</html>
