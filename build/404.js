@@ -1,16 +1,16 @@
-webpackJsonp([11],{
+webpackJsonp([10],{
 
-/***/ 52:
+/***/ 35:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_styl__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__about_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_pug__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__about_pug__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__404_styl__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__404_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__404_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__404_pug__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__404_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__404_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
 
@@ -21,14 +21,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 53:
+/***/ 36:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 54:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -149,11 +149,18 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fheader\u003E";
 };
 pug_indent.push('');
-pug_mixins["header"]('', 'О Компании');
+pug_mixins["header"]('', 'Где я?');
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"about\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"row\"\u003E\n        \u003Cdiv class=\"col-xs-12\"\u003E\n          \u003Ch2\u003EАО «Приморско-Ахтарский молочный завод»\u003C\u002Fh2\u003E\n          \u003Cdiv class=\"about__wrapper\"\u003E\n            \u003Cp\u003EАО Приморско-Ахтарский молочный завод ТМ \"ТВОРОГОВЪ\" – молочный завод, занимающийся производством цельномолочной, кисломолочной продукции (кефир, бефидо-кефир, варенец, ряженка, снежок), сметаны, творога, спред «Кубанский» сливочно - растительный, масло «Крестьянское», мороженое. В 2017г запущена новая линейка продуктов: сметанный продукт, творожный продукт. Вся молочной продукция имеет сертификаты качества.\u003C\u002Fp\u003E\n            \u003Cp\u003EВся продукция производится исключительно из натурального молочного сырья высшего сорта, без стабилизаторов, содержания ГМО и соответствует ГОСТу.\u003C\u002Fp\u003E\n            \u003Cp\u003EПродукция нашей компании выпускается в различной упаковке: в пакетах из пленки, в полипропиленовых стаканчиках, в брикетах из пергамента и фольги.\u003C\u002Fp\u003E\n            \u003Cp\u003EПокупая продукцию компании, вы всегда можете быть уверены, что на вашем столе будут только самые свежие молочные продукты. При производстве, которых использовалось только экологически чистое сырье. Выбирайте лучшее!\u003C\u002Fp\u003E\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"about__bg\"\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"error\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-xs-12 col-sm-8 col-sm-offset-2 text-center\"\u003E\n            \u003Cdiv class=\"error__icon\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(39), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__text\"\u003E\n              \u003Ch2\u003EКаким-то магическим образом вы попали на несуществующую страницу. Нужно быстрее уходить отсюда, пока никто не заметил!\u003C\u002Fh2\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__action\"\u003E\u003Ca class=\"brand-button\" href=\"\u002F\"\u003EВернуться на главную\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
 module.exports = template;
+
+/***/ }),
+
+/***/ 39:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/404.svg";
 
 /***/ })
 
-},[52]);
+},[35]);

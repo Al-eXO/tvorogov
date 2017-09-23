@@ -1,0 +1,60 @@
+include ../templates/head
+include ../templates/header
++header('', 'Результаты поиска')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .container
+            .search-result 
+                .search-result__no-result
+                    .row
+                        .col-xs-12.col-sm-6.col-sm-offset-3.text-center
+                            img.search-result__not-found(src=require("../../assets/img/not-found.svg"))
+                            h2 К сожалению по вашему запросу ничего не найдено, попробуйте изменить условия поиска.
+                .search-result__action
+                    form(action="#", method="post", novalidate)
+                        .row
+                            .col-xs-10
+                                input.search-result__input(name="searchQuery", placeholder="Что ищем?", value="Молоко")
+                            .col-xs-2
+                                button.search-box__submit.search-box__action-item(type="submit")
+                                    img(src=require("../../assets/img/search.svg"), width="30") 
+                .search-result__list
+                    a.search-result__item(href="#")
+                        .row
+                            .col-sm-3
+                                .search-result__photo(style="background-image: url('" + require("../../assets/img/product-milk-1.jpg") + "')")
+                            .col-sm-9
+                                h2.search-result__title Молоко 2,5%, 0,9л
+                                p.search-result__scription Молоко коровы – вкусный и необычайно популярный продукт, любимый миллионами. О полезности молока сейчас спорят, но невозможно отрицать – на коровьем молоке выросли поколения людей, оно необыкновенно питательно и содержит полный набор полезных для жизни и роста человека веществ.
+                    a.search-result__item(href="#")
+                        .row
+                            .col-sm-3
+                                .search-result__photo(style="background-image: url('" + require("../../assets/img/product-milk-3.jpg") + "')")
+                            .col-sm-9
+                                h2.search-result__title Молоко 2,5%, 0,5л
+                                p.search-result__scription Молоко коровы – вкусный и необычайно популярный продукт, любимый миллионами. О полезности молока сейчас спорят, но невозможно отрицать – на коровьем молоке выросли поколения людей, оно необыкновенно питательно и содержит полный набор полезных для жизни и роста человека веществ.
+                    a.search-result__item(href="#")
+                        .row
+                            .col-sm-3
+                                .search-result__photo(style="background-image: url('" + require("../../assets/img/product-milk-4.jpg") + "')")
+                            .col-sm-9
+                                h2.search-result__title Молоко 2,3%, 0,5л
+                                p.search-result__scription Молоко коровы – вкусный и необычайно популярный продукт, любимый миллионами. О полезности молока сейчас спорят, но невозможно отрицать – на коровьем молоке выросли поколения людей, оно необыкновенно питательно и содержит полный набор полезных для жизни и роста человека веществ.
+                    a.search-result__item(href="#")
+                        .row
+                            .col-sm-3
+                                .search-result__photo.search-result__photo_news(style="background-image: url('" + require("../../assets/img/news-1.jpg") + "')")
+                            .col-sm-9
+                                h2.search-result__title Снявших табличку с памятника Калашникову рабочих задержала полиция
+                                p.search-result__scription Московская полиция задержала рабочих, занимавшихся демонтажом фрагмента барельефа на памятнике оружейнику Михаилу Калашникову, на котором по ошибке разместили чертеж немецкого автомата StG 44. После дачи объяснений рабочих отпустили.
+
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+

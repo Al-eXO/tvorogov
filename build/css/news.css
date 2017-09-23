@@ -1,0 +1,22 @@
+.news {
+  margin-bottom: 100px;
+}
+.news__photo {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  height: 150px;
+  margin-top: 5px;
+  border-radius: 30px;
+}
+.news__caption {
+  margin-bottom: 10px;
+}
+.news__date {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.news__item+ .news__item {
+  margin-top: 40px;
+}

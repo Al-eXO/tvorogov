@@ -1,0 +1,25 @@
+include ../templates/head
+include ../templates/header
++header('', 'Где я?')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .container
+           .error
+                .row
+                    .col-xs-12.col-sm-8.col-sm-offset-2.text-center
+                        .error__icon
+                            img(src=require("../../assets/img/404.svg"))
+                        .error__text
+                            h2 Каким-то магическим образом вы попали на несуществующую страницу. Нужно быстрее уходить отсюда, пока никто не заметил!
+                        .error__action
+                            a.brand-button(href="/") Вернуться на главную
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+

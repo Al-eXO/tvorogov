@@ -1,0 +1,25 @@
+include ../templates/head
+include ../templates/header
++header('', ' ')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .container
+            .success
+                .row
+                    .col-xs-12.col-sm-6.col-sm-offset-3.text-center
+                        .success__icon
+                            img(src=require("../../assets/img/checked.svg"))
+                        .success__text
+                            h2 Спасибо! Ваша заявка успешно отправлена. В ближайшее время мы с вами свяжемся!
+                        .success__action
+                            a.brand-button(href="/") Вернуться на главную
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+

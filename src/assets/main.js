@@ -43,7 +43,8 @@ export default class mainScripts{
     initMasks(){
         var im = new Inputmask({
             mask: '+7 (999) 999 99 99',
-            placeholder: '+7 (...) ... .. ..'
+            placeholder: '+7 (...) ... .. ..',
+            showMaskOnHover: false
         });
         im.mask('[data-mask="phone"]');
 
@@ -68,7 +69,7 @@ export default class mainScripts{
         });
 
         $(document).on('click', '[data-start-search]', function(){
-            $('[data-searchbox]').addClass('active');
+            $('[data-searchbox]').addClass('active').find('input').focus();
             $('body').addClass('blured');
         });
 
@@ -89,6 +90,13 @@ export default class mainScripts{
         $(document).on('click', '[data-close-menu]', function() {
             $('[data-mobile-menu]').removeClass('active');
             $('body').removeClass('blured');
+        })
+        $(document).on('mouseup', '[data-mobile-menu]', function(e){
+            var container = $(".menu");
+            if (container.has(e.target).length === 0){
+                $('[data-mobile-menu]').removeClass('active');
+                $('body').removeClass('blured');
+            }
         })
     }
 }

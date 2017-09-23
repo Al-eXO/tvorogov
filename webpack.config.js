@@ -30,7 +30,12 @@ const common = merge([{
             'catalog-category': PATHS.source + '/pages/catalog-category/catalog-category.js',
             'product': PATHS.source + '/pages/product/product.js',
             'partners': PATHS.source + '/pages/partners/partners.js',
-            'contacts': PATHS.source + '/pages/contacts/contacts.js'
+            'contacts': PATHS.source + '/pages/contacts/contacts.js',
+            'search-result': PATHS.source + '/pages/search-result/search-result.js',
+            'news': PATHS.source + '/pages/news/news.js',
+            'success': PATHS.source + '/pages/success/success.js',
+            'error': PATHS.source + '/pages/error/error.js',
+            '404': PATHS.source + '/pages/404/404.js'
         },
         output: {
             path: PATHS.build,
@@ -72,6 +77,31 @@ const common = merge([{
                 filename: 'contacts.html',
                 chunks: ['contacts', 'common' ],
                 template: PATHS.source + '/pages/contacts/contacts.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: 'search-result.html',
+                chunks: ['search-result', 'common' ],
+                template: PATHS.source + '/pages/search-result/search-result.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: 'news.html',
+                chunks: ['news', 'common' ],
+                template: PATHS.source + '/pages/news/news.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: 'success.html',
+                chunks: ['success', 'common' ],
+                template: PATHS.source + '/pages/success/success.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: 'error.html',
+                chunks: ['error', 'common' ],
+                template: PATHS.source + '/pages/error/error.pug'
+            }),
+            new HtmlWebpackPlugin({
+                filename: '404.html',
+                chunks: ['404', 'common' ],
+                template: PATHS.source + '/pages/404/404.pug'
             }),
             new webpack.optimize.CommonsChunkPlugin({
                 name: 'common'

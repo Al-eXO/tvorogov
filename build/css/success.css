@@ -1,0 +1,11 @@
+.success {
+  margin-bottom: 100px;
+}
+.success__icon {
+  display: block;
+  margin: 0 auto 40px;
+  max-width: 200px;
+}
+.success__action {
+  margin-top: 40px;
+}

@@ -1,16 +1,23 @@
-webpackJsonp([11],{
+webpackJsonp([5],{
 
-/***/ 52:
+/***/ 30:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/news-1.jpg";
+
+/***/ }),
+
+/***/ 77:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_styl__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__about_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_pug__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__about_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__about_pug__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__news_styl__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__news_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__news_pug__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__news_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__news_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
 
@@ -21,14 +28,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 53:
+/***/ 78:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 54:
+/***/ 79:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -149,11 +156,18 @@ pug_html = pug_html + pug_indent.join("");
 pug_html = pug_html + "\u003C\u002Fheader\u003E";
 };
 pug_indent.push('');
-pug_mixins["header"]('', 'О Компании');
+pug_mixins["header"]('', 'Новости');
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"about\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"row\"\u003E\n        \u003Cdiv class=\"col-xs-12\"\u003E\n          \u003Ch2\u003EАО «Приморско-Ахтарский молочный завод»\u003C\u002Fh2\u003E\n          \u003Cdiv class=\"about__wrapper\"\u003E\n            \u003Cp\u003EАО Приморско-Ахтарский молочный завод ТМ \"ТВОРОГОВЪ\" – молочный завод, занимающийся производством цельномолочной, кисломолочной продукции (кефир, бефидо-кефир, варенец, ряженка, снежок), сметаны, творога, спред «Кубанский» сливочно - растительный, масло «Крестьянское», мороженое. В 2017г запущена новая линейка продуктов: сметанный продукт, творожный продукт. Вся молочной продукция имеет сертификаты качества.\u003C\u002Fp\u003E\n            \u003Cp\u003EВся продукция производится исключительно из натурального молочного сырья высшего сорта, без стабилизаторов, содержания ГМО и соответствует ГОСТу.\u003C\u002Fp\u003E\n            \u003Cp\u003EПродукция нашей компании выпускается в различной упаковке: в пакетах из пленки, в полипропиленовых стаканчиках, в брикетах из пергамента и фольги.\u003C\u002Fp\u003E\n            \u003Cp\u003EПокупая продукцию компании, вы всегда можете быть уверены, что на вашем столе будут только самые свежие молочные продукты. При производстве, которых использовалось только экологически чистое сырье. Выбирайте лучшее!\u003C\u002Fp\u003E\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"about__bg\"\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"news\"\u003E\n        \u003Cdiv class=\"news__item\"\u003E\n          \u003Cdiv class=\"row\"\u003E\n            \u003Cdiv class=\"col-sm-3\"\u003E\n              \u003Cdiv" + (" class=\"news__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(30) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"col-sm-9\"\u003E\n              \u003Cdiv class=\"news__info\"\u003E\n                \u003Cdiv class=\"news__title\"\u003E\n                  \u003Ch2 class=\"news__caption\"\u003EСнявших табличку с памятника Калашникову рабочих задержала полиция\u003C\u002Fh2\u003E\n                  \u003Cdiv class=\"news__date\"\u003E23.09.2017 09:00\u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"news__description\"\u003E\n                  \u003Cp\u003EМосковская полиция задержала рабочих, занимавшихся демонтажом фрагмента барельефа на памятнике оружейнику Михаилу Калашникову, на котором по ошибке разместили чертеж немецкого автомата StG 44. После дачи объяснений рабочих отпустили.\u003C\u002Fp\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"news__item\"\u003E\n          \u003Cdiv class=\"row\"\u003E\n            \u003Cdiv class=\"col-sm-3\"\u003E\n              \u003Cdiv" + (" class=\"news__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(80) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"col-sm-9\"\u003E\n              \u003Cdiv class=\"news__info\"\u003E\n                \u003Cdiv class=\"news__title\"\u003E\n                  \u003Ch2 class=\"news__caption\"\u003EТрамп заявил, что Россия не помогала ему победить на выборах‍\u003C\u002Fh2\u003E\n                  \u003Cdiv class=\"news__date\"\u003E23.09.2017 08:00\u003C\u002Fdiv\u003E\n                \u003C\u002Fdiv\u003E\n                \u003Cdiv class=\"news__description\"\u003E\n                  \u003Cp\u003EПрезидент США Дональд Трамп в очередной заверил, что Россия не помогала ему победить на прошедших в 2016 году президентских выборах.\u003C\u002Fp\u003E\n                \u003C\u002Fdiv\u003E\n              \u003C\u002Fdiv\u003E\n            \u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
 module.exports = template;
+
+/***/ }),
+
+/***/ 80:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/news-2.jpg";
 
 /***/ })
 
-},[52]);
+},[77]);

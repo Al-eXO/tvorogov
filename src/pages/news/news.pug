@@ -1,0 +1,39 @@
+include ../templates/head
+include ../templates/header
++header('', 'Новости')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .container
+            .news
+                .news__item
+                    .row
+                        .col-sm-3
+                            .news__photo(style="background-image: url('" + require("../../assets/img/news-1.jpg") + "')")
+                        .col-sm-9
+                            .news__info
+                                .news__title
+                                    h2.news__caption Снявших табличку с памятника Калашникову рабочих задержала полиция
+                                    .news__date 23.09.2017 09:00
+                                .news__description
+                                    p Московская полиция задержала рабочих, занимавшихся демонтажом фрагмента барельефа на памятнике оружейнику Михаилу Калашникову, на котором по ошибке разместили чертеж немецкого автомата StG 44. После дачи объяснений рабочих отпустили.
+                .news__item
+                    .row
+                        .col-sm-3
+                            .news__photo(style="background-image: url('" + require("../../assets/img/news-2.jpg") + "')")
+                        .col-sm-9
+                            .news__info
+                                .news__title
+                                    h2.news__caption Трамп заявил, что Россия не помогала ему победить на выборах‍
+                                    .news__date 23.09.2017 08:00
+                                .news__description
+                                    p Президент США Дональд Трамп в очередной заверил, что Россия не помогала ему победить на прошедших в 2016 году президентских выборах.
+                    
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+

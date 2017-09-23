@@ -1,0 +1,55 @@
+.search-result
+    margin-bottom 100px
+    &__not-found
+        display block
+        max-width 200px
+        margin auto
+        margin-bottom 40px
+    &__photo
+        display block
+        background-size contain
+        background-position center center
+        background-repeat no-repeat
+        height 200px
+    &__photo_news
+        border-radius 30px
+        background-size cover
+    &__action
+        display block
+        margin 20px auto 0
+        max-width 290px
+        input
+            width 100%
+            border none
+            border-bottom 2px solid rgba(#333, .7)
+            text-align center
+            font-size 24px
+        input, button 
+            padding 10px
+
+    &__item
+        display block
+    &__item+ &
+        &__item
+            margin-top 40px
+    
+    &__list
+        margin-top 80px
+
+        
+
+@media screen and (max-width 767px)
+    .search-result
+        margin-bottom 60px
+        &__photo
+            margin-bottom 20px
+
+        &__item+ &
+            &__item
+                &:before
+                    content ''
+                    display block
+                    width 80%
+                    margin 0 auto 40px
+                    height 2px
+                    background rgba(#333, .3)

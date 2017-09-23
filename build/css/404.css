@@ -1,0 +1,14 @@
+.error {
+  margin-bottom: 100px;
+}
+.error__icon {
+  display: block;
+  margin: 0 auto 40px;
+  max-width: 270px;
+}
+.error__icon img {
+  max-width: 100%;
+}
+.error__action {
+  margin-top: 40px;
+}

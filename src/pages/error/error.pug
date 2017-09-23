@@ -1,0 +1,25 @@
+include ../templates/head
+include ../templates/header
++header('', '')
+
+include ../templates/mobile-menu
+
+main.index
+    
+    section.p-section
+        .container
+            .error
+                .row
+                    .col-xs-12.col-sm-6.col-sm-offset-3.text-center
+                        .error__icon
+                            img(src=require("../../assets/img/error.svg"))
+                        .error__text
+                            h2 По техническим причинам ваш запрос не может быть выполнен! Посторите попытку позднее.
+                        .error__action
+                            a.brand-button(href="/") Вернуться на главную
+
+include ../templates/footer 
+include ../templates/recall-form
+include ../templates/search-box
+
+
