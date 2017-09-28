@@ -42,16 +42,16 @@ module.exports = __webpack_require__.p + "assets/images/products-sour-milk-produ
 
 /***/ }),
 
-/***/ 46:
+/***/ 44:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_styl__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_styl__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_pug__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_pug__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
@@ -62,14 +62,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 47:
+/***/ 45:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 48:
+/***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -192,30 +192,30 @@ pug_html = pug_html + "\u003C\u002Fheader\u003E";
 pug_indent.push('');
 pug_mixins["header"]('АО "Приморско-Ахтарский молочный завод"', 'ТМ «ТВОРОГОВЪ»');
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"quick-menu index__quick-menu\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(49) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EО нашей\u003Cstrong\u003EКомпании\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item quick-menu__item_style_white\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(50) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EКаталог\u003Cstrong\u003EПродукции\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item quick-menu__item_style_green\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(51) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EПартнерам и \u003Cstrong\u003EДистрибьюторам\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Ch1 class=\"p-section__title title title_h1\"\u003EНаша продукция\u003C\u002Fh1\u003E\n      \u003Cdiv class=\"quick-catalog index__quick-catalog\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(19) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМолоко\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_blue\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(20) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EСметана\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_gold\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(21) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМороженое\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(22) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМасло\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(23) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EТворог\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(24) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003E\u003Cspan\u003EКисломолочная \u003C\u002Fspan\u003Eпродукция\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"quick-menu index__quick-menu\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(47) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EО нашей\u003Cstrong\u003EКомпании\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item quick-menu__item_style_white\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(48) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EКаталог\u003Cstrong\u003EПродукции\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-4\"\u003E\u003Ca class=\"quick-menu__item quick-menu__item_style_green\" href=\"#\"\u003E\n              \u003Cdiv" + (" class=\"quick-menu__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(49) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-menu__caption\"\u003E\u003Cspan\u003EПартнерам и \u003Cstrong\u003EДистрибьюторам\u003C\u002Fstrong\u003E\u003C\u002Fspan\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Ch1 class=\"p-section__title title title_h1\"\u003EНаша продукция\u003C\u002Fh1\u003E\n      \u003Cdiv class=\"quick-catalog index__quick-catalog\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(19) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМолоко\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_blue\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(20) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EСметана\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_gold\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(21) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМороженое\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(22) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EМасло\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(23) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003EТворог\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4\"\u003E\u003Ca class=\"quick-catalog__item quick-catalog__item_size_small quick-catalog__item_style_dark\" href=\"#\"\u003E \n              \u003Cdiv" + (" class=\"quick-catalog__bg\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(24) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"quick-catalog__caption\"\u003E\u003Cspan\u003EКисломолочная \u003C\u002Fspan\u003Eпродукция\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
 module.exports = template;
 
 /***/ }),
 
-/***/ 49:
+/***/ 47:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/about-bg.jpg";
 
 /***/ }),
 
-/***/ 50:
+/***/ 48:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/catalog-bg.jpg";
 
 /***/ }),
 
-/***/ 51:
+/***/ 49:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/partners-bg.jpg";
 
 /***/ })
 
-},[46]);
+},[44]);
