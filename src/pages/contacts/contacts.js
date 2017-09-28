@@ -1,7 +1,6 @@
 import '../../assets/styl/common.styl';
 import './contacts.styl';
 import './contacts.pug';
-import parsley from 'parsleyjs';
 import mainScripts from '../../assets/main.js';
 
 
@@ -24,14 +23,4 @@ $(function(){
     }
 
     ymaps.ready(initMap);
-    
-
-    $('#contactsForm').parsley().on('field:validated', function() {
-        if (this.validationResult === true) {
-          this.$element.parent().removeClass('error');
-        } else {
-          this.$element.parent().addClass('error');
-        }
-      });
-
 });
