@@ -33,6 +33,7 @@
 .search-result__action input,
 .search-result__action button {
   padding: 10px;
+  background: transparent;
 }
 .search-result__item {
   display: block;
