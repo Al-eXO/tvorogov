@@ -84,20 +84,27 @@ export default class mainScripts{
 
         $(document).on('click', '[data-open-menu]', function(){
             $('[data-mobile-menu]').addClass('active');
+            $('.mobile-menu-lock').show();
             $('body').addClass('blured');
         });
 
         $(document).on('click', '[data-close-menu]', function() {
             $('[data-mobile-menu]').removeClass('active');
+            $('.mobile-menu-lock').hide();
             $('body').removeClass('blured');
-        })
+        });
+
+        $(document).on('click', '.mobile-menu-lock', function(){
+            $('[data-close-menu]').trigger('click');
+        });
+
         $(document).on('mouseup', '[data-mobile-menu]', function(e){
-            var container = $(".menu");
+            var container = $("[data-mobile-menu]");
             if (container.has(e.target).length === 0){
-                $('[data-mobile-menu]').removeClass('active');
-                $('body').removeClass('blured');
+                $('[data-close-menu]').trigger('click');
             }
-        })
+        });
+
     }
 }
 
