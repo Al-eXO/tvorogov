@@ -42,16 +42,16 @@ module.exports = __webpack_require__.p + "assets/images/products-sour-milk-produ
 
 /***/ }),
 
-/***/ 53:
+/***/ 54:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_styl__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_styl__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__catalog_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_pug__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_pug__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__catalog_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
@@ -63,14 +63,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -198,4 +198,4 @@ module.exports = template;
 
 /***/ })
 
-},[53]);
+},[54]);

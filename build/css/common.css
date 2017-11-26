@@ -2228,6 +2228,14 @@ body {
   font-size: 48px;
   margin-bottom: 40px;
 }
+.preloader {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .footer-menu {
   list-style: none;
   padding: 0;
@@ -2544,6 +2552,15 @@ body {
   bottom: 20px;
   transform: translateX(-50%);
 }
+.mobile-menu-lock {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  z-index: 2;
+}
 .quick-menu__item,
 .quick-catalog__item {
   display: block;
@@ -2557,7 +2574,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 101%;
   height: 100%;
   transition: transform 300ms ease-out, filter 300ms ease-out;
   background: #4682b4;
@@ -2726,6 +2743,13 @@ body {
 .brand-textarea.active label {
   transform: scale(0.7);
   line-height: 35px;
+}
+.brand-input .help-block {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-size: 12px;
+  color: #ff0042;
 }
 .brand-textarea {
   height: auto;

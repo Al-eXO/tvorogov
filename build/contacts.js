@@ -1,17 +1,20 @@
-webpackJsonp([10],{
+webpackJsonp([9],{
 
-/***/ 68:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contacts_styl__ = __webpack_require__(69);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__contacts_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__contacts_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_pug__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__contacts_pug__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_img_marker_svg__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__assets_img_marker_svg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__assets_img_marker_svg__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_styl__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contacts_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__contacts_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contacts_pug__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__contacts_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__contacts_pug__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__assets_main_js__ = __webpack_require__(9);
+
 
 
 
@@ -30,6 +33,15 @@ $(function(){
         placemark = new ymaps.Placemark([46.045028, 38.173796], { 
             hintContent: 'Твороговъ', 
             balloonContent: 'АО "Приморско-Ахтарский молочный завод" Твороговъ' 
+        }, {
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'assets/images/marker.svg',
+            // Размеры метки.
+            iconImageSize: [37, 55],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-5, -38]
         });
 
         map.geoObjects.add(placemark);
@@ -43,14 +55,21 @@ $(function(){
 
 /***/ }),
 
-/***/ 69:
+/***/ 70:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/images/marker.svg";
+
+/***/ }),
+
+/***/ 71:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 70:
+/***/ 72:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -178,4 +197,4 @@ module.exports = template;
 
 /***/ })
 
-},[68]);
+},[69]);
