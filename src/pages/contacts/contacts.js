@@ -7,7 +7,7 @@ import mainScripts from '../../assets/main.js';
 
 $(function(){
     var map, placemark;
-    
+
     function initMap(){
         map = new ymaps.Map("map", {
             center: [46.0450285,38.1715999],
@@ -20,7 +20,7 @@ $(function(){
         }, {
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: 'assets/images/marker.svg',
+            iconImageHref: $('.contacts__map').data('marker-path'),
             // Размеры метки.
             iconImageSize: [37, 55],
             // Смещение левого верхнего угла иконки относительно
