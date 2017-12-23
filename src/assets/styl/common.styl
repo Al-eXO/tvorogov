@@ -522,6 +522,26 @@ body
             color #fff
 
 
+.new-item-label
+    position relative
+    &:before
+        content 'Новинка'
+        display block
+        width 79px
+        height 42px
+        position absolute
+        top -1px
+        left 20px
+        font-size 14px
+        line-height 32px
+        text-align center
+        color #fff
+        background-image url('../img/new-item-label-bg.svg')
+        background-size cover
+        background-repeat no-repeat
+        z-index 1
+
+
 @media screen and (min-width 992px) and (max-width 1199px)
     .p-header
         &__bg
