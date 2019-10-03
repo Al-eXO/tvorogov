@@ -1,4 +1,4 @@
-webpackJsonp([3],{
+webpackJsonp([4],{
 
 /***/ 25:
 /***/ (function(module, exports, __webpack_require__) {
@@ -21,16 +21,16 @@ module.exports = __webpack_require__.p + "assets/images/product-milk-4.jpg";
 
 /***/ }),
 
-/***/ 57:
+/***/ 71:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_category_styl__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_category_styl__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__catalog_category_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__catalog_category_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_category_pug__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_category_pug__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__catalog_category_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__catalog_category_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
@@ -42,14 +42,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 58:
+/***/ 72:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 59:
+/***/ 73:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -173,16 +173,16 @@ a = [ { "caption": "Каталог продукции", "link": "/catalog.html"}
 pug_indent.push('');
 pug_mixins["header"]('', 'Молоко', a);
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"catlog-category\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(25) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,9л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(60) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 1л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item new-item-label\" href=\"product.html\"\u003E\n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(26) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,5л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(27) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 3,2%, 0,5л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));}.call(this,"a" in locals_for_with?locals_for_with.a:typeof a!=="undefined"?a:undefined));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"catlog-category\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(25) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,9л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(74) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 1л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item new-item-label\" href=\"product.html\"\u003E\n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(26) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 2,5%, 0,5л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"col-sm-6 col-md-4 col-lg-3\"\u003E\u003Ca class=\"catlog-category__item\" href=\"product.html\"\u003E \n              \u003Cdiv" + (" class=\"catlog-category__photo\""+pug.attr("style", pug.style("background-image: url('" + __webpack_require__(27) + "')"), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__caption\"\u003EМолоко 3,2%, 0,5л\u003C\u002Fdiv\u003E\n              \u003Cdiv class=\"catlog-category__link\"\u003EПодробнее\u003Ci class=\"fa fa-angle-right\" aria-hidden=\"true\"\u003E\u003C\u002Fi\u003E\u003C\u002Fdiv\u003E\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));}.call(this,"a" in locals_for_with?locals_for_with.a:typeof a!=="undefined"?a:undefined));;return pug_html;};
 module.exports = template;
 
 /***/ }),
 
-/***/ 60:
+/***/ 74:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/product-milk-2.jpg";
 
 /***/ })
 
-},[57]);
+},[71]);

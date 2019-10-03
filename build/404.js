@@ -1,15 +1,15 @@
-webpackJsonp([10],{
+webpackJsonp([11],{
 
-/***/ 33:
+/***/ 45:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__assets_styl_common_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__404_styl__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__404_styl__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__404_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__404_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__404_pug__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__404_pug__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__404_pug___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__404_pug__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__assets_main_js__ = __webpack_require__(9);
 
@@ -21,14 +21,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 
-/***/ 34:
+/***/ 46:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 35:
+/***/ 47:
 /***/ (function(module, exports, __webpack_require__) {
 
 var pug = __webpack_require__(0);
@@ -151,16 +151,16 @@ pug_html = pug_html + "\u003C\u002Fheader\u003E";
 pug_indent.push('');
 pug_mixins["header"]('', 'Где я?');
 pug_indent.pop();
-pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"error\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-xs-12 col-sm-8 col-sm-offset-2 text-center\"\u003E\n            \u003Cdiv class=\"error__icon\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(38), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__text\"\u003E\n              \u003Ch2\u003EКаким-то магическим образом вы попали на несуществующую страницу. Нужно быстрее уходить отсюда, пока никто не заметил!\u003C\u002Fh2\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__action\"\u003E\u003Ca class=\"brand-button\" href=\"\u002F\"\u003EВернуться на главную\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
+pug_html = pug_html + ((null == (pug_interp = __webpack_require__(5).call(this, locals)) ? "" : pug_interp) + "\n\u003Cmain class=\"index\"\u003E\n  \u003Csection class=\"p-section\"\u003E\n    \u003Cdiv class=\"container\"\u003E\n      \u003Cdiv class=\"error\"\u003E\n        \u003Cdiv class=\"row\"\u003E\n          \u003Cdiv class=\"col-xs-12 col-sm-8 col-sm-offset-2 text-center\"\u003E\n            \u003Cdiv class=\"error__icon\"\u003E\u003Cimg" + (pug.attr("src", __webpack_require__(50), true, true)) + "\u003E\u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__text\"\u003E\n              \u003Ch2\u003EКаким-то магическим образом вы попали на несуществующую страницу. Нужно быстрее уходить отсюда, пока никто не заметил!\u003C\u002Fh2\u003E\n            \u003C\u002Fdiv\u003E\n            \u003Cdiv class=\"error__action\"\u003E\u003Ca class=\"brand-button\" href=\"\u002F\"\u003EВернуться на главную\u003C\u002Fa\u003E\u003C\u002Fdiv\u003E\n          \u003C\u002Fdiv\u003E\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E\n  \u003C\u002Fsection\u003E\n\u003C\u002Fmain\u003E" + (null == (pug_interp = __webpack_require__(6).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(7).call(this, locals)) ? "" : pug_interp) + (null == (pug_interp = __webpack_require__(8).call(this, locals)) ? "" : pug_interp));;return pug_html;};
 module.exports = template;
 
 /***/ }),
 
-/***/ 38:
+/***/ 50:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "assets/images/404.svg";
 
 /***/ })
 
-},[33]);
+},[45]);
