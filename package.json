@@ -18,7 +18,7 @@
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
     "inputmask": "^3.3.8",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "jsxobj": "^1.1.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
